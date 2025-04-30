@@ -28,40 +28,32 @@ jobs:
       - name: Ejecutar pruebas
         run: npx codeceptjs run --features
 
-      - name: Descargar reporte anterior
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-report
-          path: output/
+      
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
         continue-on-error: true
-
-      - name: Mover historial al directorio de resultados
-        run: |
-          if [ -d "output/allure-report/history" ]; then
-            cp -r output/allure-report/history output/allure-results/
-          fi
-
-      - name: Generar reporte Allure con historial
-        run: |
-          npx allure generate output/allure-results -o output/allure-report --clean
-
-      - name: Subir resultados raw
-        uses: actions/upload-artifact@v4
         with:
-          name: allure-results
-          path: output/allure-results/
+          ref: gh-pages
+          path: gh-pages
 
-      - name: Subir reporte HTML
-        uses: actions/upload-artifact@v4
+        
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
         with:
-          name: allure-report
-          path: output/allure-report/
+        allure_results: allure-results
+        #gh_pages: gh-pages
+        #allure_report: allure-report
+        allure_history: allure-history
 
-      - name: Desplegar reporte en GitHub Pages
-        if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: output/allure-report
-          publish_branch: gh-pages
-          force_orphan: true
+
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
