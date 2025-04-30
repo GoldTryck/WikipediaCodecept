@@ -6,7 +6,7 @@ exports.config = {
     Playwright: {
       browser: "chromium",
       url: "https://www.wikipedia.org",
-      show: true,
+      show: false,
     },
   },
   include: {
