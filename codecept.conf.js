@@ -18,12 +18,13 @@ exports.config = {
     features: ["./features/*.feature"],
     steps: ["./steps/wikipedia_steps.js"],
   },
-plugins: {
-  allure: {
-    enabled: true,
-    require: '@codeceptjs/allure-legacy',
-  }
-},
+  plugins: {
+    allure: {
+      enabled: true,
+      require: "allure-codeceptjs",
+      resultsDir: "./output/allure-results",
+    },
+  },
 
   name: "WikipediaCodecept",
 };

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "allure:generate": "npx allure generate output/allure-results -o output/allure-report"
+    "allure:generate": "npx allure generate ./output/allure-results -o output/allure-report"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/GoldTryck/WikipediaCodecept#readme",
   "devDependencies": {
-    "@codeceptjs/allure-legacy": "^1.0.2",
+    "allure-codeceptjs": "^3.2.1",
     "codeceptjs": "^3.7.3",
     "playwright": "^1.52.0",
     "uuid": "^11.1.0"

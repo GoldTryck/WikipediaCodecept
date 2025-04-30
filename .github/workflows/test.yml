@@ -26,7 +26,7 @@ jobs:
         run: npx playwright install chromium
 
       - name: Ejecutar pruebas
-        run: npx codeceptjs run --features --plugins allure
+        run: npx codeceptjs run --features
 
       - name: Generar reporte HTML de Allure
         run: npm run allure:generate
@@ -42,3 +42,9 @@ jobs:
         with:
           name: allure-report
           path: output/allure-report/
+
+        - name: Publicar reporte HTML de Allure
+          uses: simple-elf/allure-report-action@v1
+          with:
+            report-path: output/allure-report/
+            auto-open: true
