@@ -2,195 +2,182 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Busqueda exitosa de un termino existente @test",
-    "uid" : "d0e02c93ee983c5c",
+    "uid" : "f35f10afd0d7bafc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050703169,
-      "stop" : 1746050706983,
-      "duration" : 3814
+      "start" : 1746051114513,
+      "stop" : 1746051118015,
+      "duration" : 3502
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Busqueda fallida de un termino inexistente",
-    "uid" : "161cb44e5816e651",
+    "uid" : "237b1b1dfcba8974",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050706992,
-      "stop" : 1746050710784,
-      "duration" : 3792
+      "start" : 1746051118026,
+      "stop" : 1746051121481,
+      "duration" : 3455
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Español\"}",
-    "uid" : "8135fc3bf19180eb",
+    "uid" : "5a342e11d644491f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050710788,
-      "stop" : 1746050713539,
-      "duration" : 2751
+      "start" : 1746051121486,
+      "stop" : 1746051124218,
+      "duration" : 2732
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ingles\"}",
-    "uid" : "d504c5cba450a742",
+    "uid" : "ed3c7c3debfce929",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050713544,
-      "stop" : 1746050716218,
-      "duration" : 2674
+      "start" : 1746051124223,
+      "stop" : 1746051126902,
+      "duration" : 2679
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Japones\"}",
-    "uid" : "d0f4254d0b55f7c9",
+    "uid" : "b992b4ec77fe419e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050716223,
-      "stop" : 1746050719076,
-      "duration" : 2853
+      "start" : 1746051126907,
+      "stop" : 1746051129793,
+      "duration" : 2886
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ruso\"}",
-    "uid" : "635306907686581a",
+    "uid" : "cb2e121940f7e09c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050719081,
-      "stop" : 1746050721714,
-      "duration" : 2633
+      "start" : 1746051129798,
+      "stop" : 1746051132419,
+      "duration" : 2621
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Aleman\"}",
-    "uid" : "41700ed9bb694d94",
+    "uid" : "7986655c13c31ff1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050721719,
-      "stop" : 1746050724621,
-      "duration" : 2902
+      "start" : 1746051132424,
+      "stop" : 1746051135197,
+      "duration" : 2773
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Frances\"}",
-    "uid" : "74eb23af5caae047",
+    "uid" : "97da6a315e3457ca",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050724627,
-      "stop" : 1746050727247,
-      "duration" : 2620
+      "start" : 1746051135202,
+      "stop" : 1746051137826,
+      "duration" : 2624
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Chino\"}",
-    "uid" : "a37dff4ce80be2fb",
+    "uid" : "fe3130452fb54310",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050727253,
-      "stop" : 1746050730145,
-      "duration" : 2892
+      "start" : 1746051137831,
+      "stop" : 1746051140639,
+      "duration" : 2808
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Portugues\"}",
-    "uid" : "6fd2ec6830b14691",
+    "uid" : "d1a2d569531adf09",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050730151,
-      "stop" : 1746050732945,
-      "duration" : 2794
+      "start" : 1746051140645,
+      "stop" : 1746051143386,
+      "duration" : 2741
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Italiano\"}",
-    "uid" : "d7971df1b43bedd7",
+    "uid" : "1c0a04d38401e2f1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050732951,
-      "stop" : 1746050735664,
-      "duration" : 2713
+      "start" : 1746051143391,
+      "stop" : 1746051146115,
+      "duration" : 2724
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Polaco\"}",
-    "uid" : "90ed87316ac03f00",
+    "uid" : "41202bede3246b32",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050735668,
-      "stop" : 1746050738396,
-      "duration" : 2728
+      "start" : 1746051146121,
+      "stop" : 1746051148789,
+      "duration" : 2668
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Verificar sección especifica en articulo existente {\"seccion\":\"Referencias\"}",
-    "uid" : "f14d82e90cdbfef1",
+    "uid" : "be9c8aac39aa11d1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050738401,
-      "stop" : 1746050741878,
-      "duration" : 3477
+      "start" : 1746051148793,
+      "stop" : 1746051152221,
+      "duration" : 3428
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Verificar enlaces internos en un artículo existente",
-    "uid" : "ff45a13dc47d2070",
+    "uid" : "d6bd8c5aa10bd1c8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1746050741882,
-      "stop" : 1746050773170,
-      "duration" : 31288
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test something",
-    "uid" : "a4f673bab5ae9baa",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1746050773180,
-      "stop" : 1746050773209,
-      "duration" : 29
+      "start" : 1746051152226,
+      "stop" : 1746051157871,
+      "duration" : 5645
     },
     "flaky" : false,
     "newFailed" : false,

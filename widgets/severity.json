@@ -1,150 +1,140 @@
 [ {
-  "uid" : "d0e02c93ee983c5c",
-  "name" : "Busqueda exitosa de un termino existente @test",
-  "time" : {
-    "start" : 1746050703169,
-    "stop" : 1746050706983,
-    "duration" : 3814
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6fd2ec6830b14691",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Portugues\"}",
-  "time" : {
-    "start" : 1746050730151,
-    "stop" : 1746050732945,
-    "duration" : 2794
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d0f4254d0b55f7c9",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Japones\"}",
-  "time" : {
-    "start" : 1746050716223,
-    "stop" : 1746050719076,
-    "duration" : 2853
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff45a13dc47d2070",
-  "name" : "Verificar enlaces internos en un artículo existente",
-  "time" : {
-    "start" : 1746050741882,
-    "stop" : 1746050773170,
-    "duration" : 31288
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f14d82e90cdbfef1",
-  "name" : "Verificar sección especifica en articulo existente {\"seccion\":\"Referencias\"}",
-  "time" : {
-    "start" : 1746050738401,
-    "stop" : 1746050741878,
-    "duration" : 3477
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "161cb44e5816e651",
-  "name" : "Busqueda fallida de un termino inexistente",
-  "time" : {
-    "start" : 1746050706992,
-    "stop" : 1746050710784,
-    "duration" : 3792
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a4f673bab5ae9baa",
-  "name" : "test something",
-  "time" : {
-    "start" : 1746050773180,
-    "stop" : 1746050773209,
-    "duration" : 29
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "635306907686581a",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ruso\"}",
-  "time" : {
-    "start" : 1746050719081,
-    "stop" : 1746050721714,
-    "duration" : 2633
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d7971df1b43bedd7",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Italiano\"}",
-  "time" : {
-    "start" : 1746050732951,
-    "stop" : 1746050735664,
-    "duration" : 2713
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a37dff4ce80be2fb",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Chino\"}",
-  "time" : {
-    "start" : 1746050727253,
-    "stop" : 1746050730145,
-    "duration" : 2892
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d504c5cba450a742",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ingles\"}",
-  "time" : {
-    "start" : 1746050713544,
-    "stop" : 1746050716218,
-    "duration" : 2674
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "74eb23af5caae047",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Frances\"}",
-  "time" : {
-    "start" : 1746050724627,
-    "stop" : 1746050727247,
-    "duration" : 2620
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90ed87316ac03f00",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Polaco\"}",
-  "time" : {
-    "start" : 1746050735668,
-    "stop" : 1746050738396,
-    "duration" : 2728
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "41700ed9bb694d94",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Aleman\"}",
-  "time" : {
-    "start" : 1746050721719,
-    "stop" : 1746050724621,
-    "duration" : 2902
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8135fc3bf19180eb",
+  "uid" : "5a342e11d644491f",
   "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Español\"}",
   "time" : {
-    "start" : 1746050710788,
-    "stop" : 1746050713539,
-    "duration" : 2751
+    "start" : 1746051121486,
+    "stop" : 1746051124218,
+    "duration" : 2732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe3130452fb54310",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Chino\"}",
+  "time" : {
+    "start" : 1746051137831,
+    "stop" : 1746051140639,
+    "duration" : 2808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97da6a315e3457ca",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Frances\"}",
+  "time" : {
+    "start" : 1746051135202,
+    "stop" : 1746051137826,
+    "duration" : 2624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6bd8c5aa10bd1c8",
+  "name" : "Verificar enlaces internos en un artículo existente",
+  "time" : {
+    "start" : 1746051152226,
+    "stop" : 1746051157871,
+    "duration" : 5645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f35f10afd0d7bafc",
+  "name" : "Busqueda exitosa de un termino existente @test",
+  "time" : {
+    "start" : 1746051114513,
+    "stop" : 1746051118015,
+    "duration" : 3502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7986655c13c31ff1",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Aleman\"}",
+  "time" : {
+    "start" : 1746051132424,
+    "stop" : 1746051135197,
+    "duration" : 2773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1a2d569531adf09",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Portugues\"}",
+  "time" : {
+    "start" : 1746051140645,
+    "stop" : 1746051143386,
+    "duration" : 2741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed3c7c3debfce929",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ingles\"}",
+  "time" : {
+    "start" : 1746051124223,
+    "stop" : 1746051126902,
+    "duration" : 2679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb2e121940f7e09c",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ruso\"}",
+  "time" : {
+    "start" : 1746051129798,
+    "stop" : 1746051132419,
+    "duration" : 2621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be9c8aac39aa11d1",
+  "name" : "Verificar sección especifica en articulo existente {\"seccion\":\"Referencias\"}",
+  "time" : {
+    "start" : 1746051148793,
+    "stop" : 1746051152221,
+    "duration" : 3428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41202bede3246b32",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Polaco\"}",
+  "time" : {
+    "start" : 1746051146121,
+    "stop" : 1746051148789,
+    "duration" : 2668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c0a04d38401e2f1",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Italiano\"}",
+  "time" : {
+    "start" : 1746051143391,
+    "stop" : 1746051146115,
+    "duration" : 2724
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b992b4ec77fe419e",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Japones\"}",
+  "time" : {
+    "start" : 1746051126907,
+    "stop" : 1746051129793,
+    "duration" : 2886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "237b1b1dfcba8974",
+  "name" : "Busqueda fallida de un termino inexistente",
+  "time" : {
+    "start" : 1746051118026,
+    "stop" : 1746051121481,
+    "duration" : 3455
   },
   "status" : "passed",
   "severity" : "normal"

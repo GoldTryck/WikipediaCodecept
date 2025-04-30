@@ -1,17 +1,8 @@
 [ {
-  "buildOrder" : 25,
-  "reportUrl" : "https://GoldTryck.github.io/WikipediaCodecept/25/",
+  "buildOrder" : 26,
+  "reportUrl" : "https://GoldTryck.github.io/WikipediaCodecept/26/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 70040
+    "duration" : 43358
   }
-}, {
-  "buildOrder" : 24,
-  "reportUrl" : "https://GoldTryck.github.io/WikipediaCodecept/24/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 3736
-  }
-}, {
-  "data" : { }
 } ]

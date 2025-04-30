@@ -1,44 +1,29 @@
 {
-  "uid" : "ff45a13dc47d2070",
+  "uid" : "d6bd8c5aa10bd1c8",
   "name" : "Verificar enlaces internos en un artículo existente",
   "fullName" : "features/wikipedia.feature: Wikipedia Search > Verificar enlaces internos en un artículo existente",
   "historyId" : "80cf8a37bf0d331c385c2d59c9438da4:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746050741882,
-    "stop" : 1746050773170,
-    "duration" : 31288
+    "start" : 1746051152226,
+    "stop" : 1746051157871,
+    "duration" : 5645
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before each\" hook: codeceptjs.before",
-    "time" : {
-      "start" : 1746050741882,
-      "stop" : 1746050741908,
-      "duration" : 26
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "\"before each\" hook: Before",
     "time" : {
-      "start" : 1746050741908,
-      "stop" : 1746050744329,
-      "duration" : 2421
+      "start" : 1746051152255,
+      "stop" : 1746051154678,
+      "duration" : 2423
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Given Estoy en la pagina principal de Wikipedia",
       "time" : {
-        "start" : 1746050741909,
-        "stop" : 1746050741909,
+        "start" : 1746051152256,
+        "stop" : 1746051152256,
         "duration" : 0
       },
       "status" : "passed",
@@ -52,9 +37,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746050741909,
-        "stop" : 1746050742324,
-        "duration" : 415
+        "start" : 1746051152256,
+        "stop" : 1746051152673,
+        "duration" : 417
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +52,9 @@
     }, {
       "name" : "I wait 2",
       "time" : {
-        "start" : 1746050742324,
-        "stop" : 1746050744325,
-        "duration" : 2001
+        "start" : 1746051152673,
+        "stop" : 1746051154673,
+        "duration" : 2000
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,8 +67,8 @@
     }, {
       "name" : "I say \"Abriendo la pagina principal de Wikipedia\"",
       "time" : {
-        "start" : 1746050744325,
-        "stop" : 1746050744325,
+        "start" : 1746051154673,
+        "stop" : 1746051154673,
         "duration" : 0
       },
       "status" : "passed",
@@ -97,9 +82,9 @@
     }, {
       "name" : "I wait for element \"#js-link-box-es\", 10",
       "time" : {
-        "start" : 1746050744325,
-        "stop" : 1746050744328,
-        "duration" : 3
+        "start" : 1746051154673,
+        "stop" : 1746051154677,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -119,9 +104,24 @@
   }, {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746050702904,
-      "stop" : 1746050703168,
-      "duration" : 264
+      "start" : 1746051114279,
+      "stop" : 1746051114511,
+      "duration" : 232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "\"before each\" hook: codeceptjs.before",
+    "time" : {
+      "start" : 1746051152226,
+      "stop" : 1746051152255,
+      "duration" : 29
     },
     "status" : "passed",
     "steps" : [ ],
@@ -137,8 +137,8 @@
     "steps" : [ {
       "name" : "When Selecciono \"Español\" como idioma",
       "time" : {
-        "start" : 1746050744330,
-        "stop" : 1746050744330,
+        "start" : 1746051154679,
+        "stop" : 1746051154679,
         "duration" : 0
       },
       "status" : "passed",
@@ -152,9 +152,9 @@
     }, {
       "name" : "And Ingreso \"Python\" en el campo de búsqueda",
       "time" : {
-        "start" : 1746050744331,
-        "stop" : 1746050744331,
-        "duration" : 0
+        "start" : 1746051154680,
+        "stop" : 1746051154681,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -167,17 +167,17 @@
     }, {
       "name" : "Then Obtengo todos los enlaces internos",
       "time" : {
-        "start" : 1746050744332,
-        "stop" : 1746050744468,
-        "duration" : 136
+        "start" : 1746051154681,
+        "stop" : 1746051154829,
+        "duration" : 148
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "I wait for element \"#js-link-box-es\", 10",
         "time" : {
-          "start" : 1746050744332,
-          "stop" : 1746050744335,
-          "duration" : 3
+          "start" : 1746051154682,
+          "stop" : 1746051154686,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -190,9 +190,9 @@
       }, {
         "name" : "I click \"#js-link-box-es\"",
         "time" : {
-          "start" : 1746050744335,
-          "stop" : 1746050744468,
-          "duration" : 133
+          "start" : 1746051154686,
+          "stop" : 1746051154829,
+          "duration" : 143
         },
         "status" : "passed",
         "steps" : [ ],
@@ -205,8 +205,8 @@
       }, {
         "name" : "I say \"Seleccionando Español\"",
         "time" : {
-          "start" : 1746050744468,
-          "stop" : 1746050744468,
+          "start" : 1746051154829,
+          "stop" : 1746051154829,
           "duration" : 0
         },
         "status" : "passed",
@@ -227,9 +227,9 @@
     }, {
       "name" : "I wait for element \"#searchInput\", 10",
       "time" : {
-        "start" : 1746050744468,
-        "stop" : 1746050744579,
-        "duration" : 111
+        "start" : 1746051154829,
+        "stop" : 1746051154944,
+        "duration" : 115
       },
       "status" : "passed",
       "steps" : [ ],
@@ -242,9 +242,9 @@
     }, {
       "name" : "I fill field \"#searchInput\", \"Python\"",
       "time" : {
-        "start" : 1746050744579,
-        "stop" : 1746050744866,
-        "duration" : 287
+        "start" : 1746051154944,
+        "stop" : 1746051155229,
+        "duration" : 285
       },
       "status" : "passed",
       "steps" : [ ],
@@ -257,8 +257,8 @@
     }, {
       "name" : "I press key \"Enter\"",
       "time" : {
-        "start" : 1746050744867,
-        "stop" : 1746050744975,
+        "start" : 1746051155229,
+        "stop" : 1746051155337,
         "duration" : 108
       },
       "status" : "passed",
@@ -272,9 +272,9 @@
     }, {
       "name" : "I wait for element \"#content\", 10",
       "time" : {
-        "start" : 1746050744975,
-        "stop" : 1746050745193,
-        "duration" : 218
+        "start" : 1746051155337,
+        "stop" : 1746051155514,
+        "duration" : 177
       },
       "status" : "passed",
       "steps" : [ ],
@@ -287,9 +287,9 @@
     }, {
       "name" : "I wait for element \"//div[@id='bodyContent']//a[starts-with(@href, '/wiki/')]\", 10",
       "time" : {
-        "start" : 1746050745194,
-        "stop" : 1746050745240,
-        "duration" : 46
+        "start" : 1746051155515,
+        "stop" : 1746051155547,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -302,9 +302,9 @@
     }, {
       "name" : "I grab attribute from all \"//div[@id='bodyContent']//a[starts-with(@href, '/wiki/')]\", \"href\"",
       "time" : {
-        "start" : 1746050745240,
-        "stop" : 1746050745684,
-        "duration" : 444
+        "start" : 1746051155547,
+        "stop" : 1746051155988,
+        "duration" : 441
       },
       "status" : "passed",
       "steps" : [ ],
@@ -317,16 +317,16 @@
     }, {
       "name" : "And Verifico que los enlaces internos son válidos",
       "time" : {
-        "start" : 1746050745685,
-        "stop" : 1746050773169,
-        "duration" : 27484
+        "start" : 1746051155990,
+        "stop" : 1746051157871,
+        "duration" : 1881
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "I say \"Obteniendo todos los enlaces internos\"",
         "time" : {
-          "start" : 1746050745717,
-          "stop" : 1746050745717,
+          "start" : 1746051156024,
+          "stop" : 1746051156024,
           "duration" : 0
         },
         "status" : "passed",
@@ -347,8 +347,8 @@
     }, {
       "name" : "I say \"Validando los enlaces internos\"",
       "time" : {
-        "start" : 1746050745717,
-        "stop" : 1746050745717,
+        "start" : 1746051156024,
+        "stop" : 1746051156024,
         "duration" : 0
       },
       "status" : "passed",
@@ -362,8 +362,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Monty_Python es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050745736,
-        "stop" : 1746050745736,
+        "start" : 1746051156040,
+        "stop" : 1746051156040,
         "duration" : 0
       },
       "status" : "passed",
@@ -377,8 +377,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Colt_Python es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050745905,
-        "stop" : 1746050745905,
+        "start" : 1746051156044,
+        "stop" : 1746051156044,
         "duration" : 0
       },
       "status" : "passed",
@@ -392,8 +392,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pythonidae es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050746079,
-        "stop" : 1746050746079,
+        "start" : 1746051156047,
+        "stop" : 1746051156047,
         "duration" : 0
       },
       "status" : "passed",
@@ -407,8 +407,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pit%C3%B3n es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050746093,
-        "stop" : 1746050746093,
+        "start" : 1746051156050,
+        "stop" : 1746051156050,
         "duration" : 0
       },
       "status" : "passed",
@@ -422,8 +422,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:Python-logo-notext.svg es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050746322,
-        "stop" : 1746050746322,
+        "start" : 1746051156052,
+        "stop" : 1746051156052,
         "duration" : 0
       },
       "status" : "passed",
@@ -437,8 +437,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:CPT-TheoryOfComp-Binary-Search-Python.png es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050746506,
-        "stop" : 1746050746506,
+        "start" : 1746051156055,
+        "stop" : 1746051156055,
         "duration" : 0
       },
       "status" : "passed",
@@ -452,8 +452,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Python_Software_Foundation es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050746672,
-        "stop" : 1746050746672,
+        "start" : 1746051156058,
+        "stop" : 1746051156058,
         "duration" : 0
       },
       "status" : "passed",
@@ -467,8 +467,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Extensi%C3%B3n_de_archivo es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050746878,
-        "stop" : 1746050746878,
+        "start" : 1746051156062,
+        "stop" : 1746051156062,
         "duration" : 0
       },
       "status" : "passed",
@@ -482,8 +482,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Paradigma_de_programaci%C3%B3n es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050747065,
-        "stop" : 1746050747065,
+        "start" : 1746051156065,
+        "stop" : 1746051156065,
         "duration" : 0
       },
       "status" : "passed",
@@ -497,8 +497,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050747148,
-        "stop" : 1746050747148,
+        "start" : 1746051156068,
+        "stop" : 1746051156068,
         "duration" : 0
       },
       "status" : "passed",
@@ -512,8 +512,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_imperativa es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050747304,
-        "stop" : 1746050747304,
+        "start" : 1746051156071,
+        "stop" : 1746051156071,
         "duration" : 0
       },
       "status" : "passed",
@@ -527,9 +527,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050747483,
-        "stop" : 1746050747484,
-        "duration" : 1
+        "start" : 1746051156073,
+        "stop" : 1746051156073,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -542,8 +542,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Reflexi%C3%B3n_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050747641,
-        "stop" : 1746050747641,
+        "start" : 1746051156076,
+        "stop" : 1746051156076,
         "duration" : 0
       },
       "status" : "passed",
@@ -557,8 +557,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Guido_van_Rossum es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050747834,
-        "stop" : 1746050747834,
+        "start" : 1746051156079,
+        "stop" : 1746051156079,
         "duration" : 0
       },
       "status" : "passed",
@@ -572,8 +572,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Sistema_de_tipos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748014,
-        "stop" : 1746050748014,
+        "start" : 1746051156081,
+        "stop" : 1746051156081,
         "duration" : 0
       },
       "status" : "passed",
@@ -587,8 +587,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Duck_typing es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748215,
-        "stop" : 1746050748215,
+        "start" : 1746051156084,
+        "stop" : 1746051156084,
         "duration" : 0
       },
       "status" : "passed",
@@ -602,8 +602,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tipado_din%C3%A1mico es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748403,
-        "stop" : 1746050748403,
+        "start" : 1746051156086,
+        "stop" : 1746051156086,
         "duration" : 0
       },
       "status" : "passed",
@@ -617,8 +617,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/CPython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748413,
-        "stop" : 1746050748413,
+        "start" : 1746051156089,
+        "stop" : 1746051156089,
         "duration" : 0
       },
       "status" : "passed",
@@ -632,8 +632,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/IronPython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748568,
-        "stop" : 1746050748568,
+        "start" : 1746051156092,
+        "stop" : 1746051156092,
         "duration" : 0
       },
       "status" : "passed",
@@ -647,8 +647,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Jython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748736,
-        "stop" : 1746050748736,
+        "start" : 1746051156094,
+        "stop" : 1746051156094,
         "duration" : 0
       },
       "status" : "passed",
@@ -662,8 +662,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/PyPy es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748818,
-        "stop" : 1746050748818,
+        "start" : 1746051156097,
+        "stop" : 1746051156097,
         "duration" : 0
       },
       "status" : "passed",
@@ -677,8 +677,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/RPython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050748994,
-        "stop" : 1746050748994,
+        "start" : 1746051156100,
+        "stop" : 1746051156100,
         "duration" : 0
       },
       "status" : "passed",
@@ -692,8 +692,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/ABC_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050749161,
-        "stop" : 1746050749161,
+        "start" : 1746051156103,
+        "stop" : 1746051156103,
         "duration" : 0
       },
       "status" : "passed",
@@ -707,8 +707,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050749382,
-        "stop" : 1746050749382,
+        "start" : 1746051156105,
+        "stop" : 1746051156105,
         "duration" : 0
       },
       "status" : "passed",
@@ -722,9 +722,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Haskell es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050749587,
-        "stop" : 1746050749588,
-        "duration" : 1
+        "start" : 1746051156108,
+        "stop" : 1746051156108,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -737,8 +737,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Icon es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050749759,
-        "stop" : 1746050749759,
+        "start" : 1746051156111,
+        "stop" : 1746051156111,
         "duration" : 0
       },
       "status" : "passed",
@@ -752,8 +752,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lisp es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050749972,
-        "stop" : 1746050749972,
+        "start" : 1746051156113,
+        "stop" : 1746051156113,
         "duration" : 0
       },
       "status" : "passed",
@@ -767,8 +767,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Modula-3 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050750153,
-        "stop" : 1746050750153,
+        "start" : 1746051156117,
+        "stop" : 1746051156117,
         "duration" : 0
       },
       "status" : "passed",
@@ -782,8 +782,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Perl es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050750383,
-        "stop" : 1746050750383,
+        "start" : 1746051156120,
+        "stop" : 1746051156120,
         "duration" : 0
       },
       "status" : "passed",
@@ -797,8 +797,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Smalltalk es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050750469,
-        "stop" : 1746050750469,
+        "start" : 1746051156122,
+        "stop" : 1746051156122,
         "duration" : 0
       },
       "status" : "passed",
@@ -812,8 +812,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050750549,
-        "stop" : 1746050750549,
+        "start" : 1746051156125,
+        "stop" : 1746051156125,
         "duration" : 0
       },
       "status" : "passed",
@@ -827,8 +827,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Boo_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050750718,
-        "stop" : 1746050750718,
+        "start" : 1746051156127,
+        "stop" : 1746051156127,
         "duration" : 0
       },
       "status" : "passed",
@@ -842,8 +842,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/D_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050750948,
-        "stop" : 1746050750948,
+        "start" : 1746051156130,
+        "stop" : 1746051156130,
         "duration" : 0
       },
       "status" : "passed",
@@ -857,8 +857,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Falcon_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751126,
-        "stop" : 1746050751126,
+        "start" : 1746051156133,
+        "stop" : 1746051156133,
         "duration" : 0
       },
       "status" : "passed",
@@ -872,8 +872,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Genie_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751302,
-        "stop" : 1746050751302,
+        "start" : 1746051156135,
+        "stop" : 1746051156135,
         "duration" : 0
       },
       "status" : "passed",
@@ -887,8 +887,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Groovy_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751502,
-        "stop" : 1746050751502,
+        "start" : 1746051156137,
+        "stop" : 1746051156137,
         "duration" : 0
       },
       "status" : "passed",
@@ -902,8 +902,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Ruby es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751512,
-        "stop" : 1746050751512,
+        "start" : 1746051156140,
+        "stop" : 1746051156140,
         "duration" : 0
       },
       "status" : "passed",
@@ -917,8 +917,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/JavaScript es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751585,
-        "stop" : 1746050751585,
+        "start" : 1746051156142,
+        "stop" : 1746051156142,
         "duration" : 0
       },
       "status" : "passed",
@@ -932,8 +932,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Cython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751749,
-        "stop" : 1746050751749,
+        "start" : 1746051156145,
+        "stop" : 1746051156145,
         "duration" : 0
       },
       "status" : "passed",
@@ -947,8 +947,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Go_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751759,
-        "stop" : 1746050751759,
+        "start" : 1746051156147,
+        "stop" : 1746051156147,
         "duration" : 0
       },
       "status" : "passed",
@@ -962,8 +962,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Latino_(Lenguaje_de_Programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751929,
-        "stop" : 1746050751929,
+        "start" : 1746051156150,
+        "stop" : 1746051156150,
         "duration" : 0
       },
       "status" : "passed",
@@ -977,8 +977,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Sistema_operativo es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050751940,
-        "stop" : 1746050751940,
+        "start" : 1746051156152,
+        "stop" : 1746051156152,
         "duration" : 0
       },
       "status" : "passed",
@@ -992,8 +992,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Multiplataforma es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050752102,
-        "stop" : 1746050752102,
+        "start" : 1746051156155,
+        "stop" : 1746051156155,
         "duration" : 0
       },
       "status" : "passed",
@@ -1007,8 +1007,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Licencia_de_software es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050752297,
-        "stop" : 1746050752297,
+        "start" : 1746051156157,
+        "stop" : 1746051156157,
         "duration" : 0
       },
       "status" : "passed",
@@ -1022,8 +1022,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Python_Software_Foundation_License es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050752475,
-        "stop" : 1746050752475,
+        "start" : 1746051156160,
+        "stop" : 1746051156160,
         "duration" : 0
       },
       "status" : "passed",
@@ -1037,8 +1037,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_alto_nivel es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050752649,
-        "stop" : 1746050752649,
+        "start" : 1746051156162,
+        "stop" : 1746051156162,
         "duration" : 0
       },
       "status" : "passed",
@@ -1052,8 +1052,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050752864,
-        "stop" : 1746050752864,
+        "start" : 1746051156164,
+        "stop" : 1746051156164,
         "duration" : 0
       },
       "status" : "passed",
@@ -1067,9 +1067,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Int%C3%A9rprete_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050752874,
-        "stop" : 1746050752875,
-        "duration" : 1
+        "start" : 1746051156167,
+        "stop" : 1746051156167,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1082,8 +1082,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Codigo_fuente es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753050,
-        "stop" : 1746050753050,
+        "start" : 1746051156169,
+        "stop" : 1746051156169,
         "duration" : 0
       },
       "status" : "passed",
@@ -1097,8 +1097,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n#Paradigma_de_programación es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753061,
-        "stop" : 1746050753061,
+        "start" : 1746051156171,
+        "stop" : 1746051156171,
         "duration" : 0
       },
       "status" : "passed",
@@ -1112,8 +1112,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753065,
-        "stop" : 1746050753065,
+        "start" : 1746051156174,
+        "stop" : 1746051156174,
         "duration" : 0
       },
       "status" : "passed",
@@ -1127,8 +1127,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753069,
-        "stop" : 1746050753069,
+        "start" : 1746051156176,
+        "stop" : 1746051156176,
         "duration" : 0
       },
       "status" : "passed",
@@ -1142,8 +1142,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_interpretado es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753072,
-        "stop" : 1746050753072,
+        "start" : 1746051156178,
+        "stop" : 1746051156178,
         "duration" : 0
       },
       "status" : "passed",
@@ -1157,8 +1157,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tipado_din%C3%A1mico es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753076,
-        "stop" : 1746050753076,
+        "start" : 1746051156181,
+        "stop" : 1746051156181,
         "duration" : 0
       },
       "status" : "passed",
@@ -1172,9 +1172,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Multiplataforma es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753080,
-        "stop" : 1746050753080,
-        "duration" : 0
+        "start" : 1746051156183,
+        "stop" : 1746051156184,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1187,8 +1187,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Python_Software_Foundation es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753084,
-        "stop" : 1746050753084,
+        "start" : 1746051156186,
+        "stop" : 1746051156186,
         "duration" : 0
       },
       "status" : "passed",
@@ -1202,8 +1202,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Licencia_de_software es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753088,
-        "stop" : 1746050753088,
+        "start" : 1746051156188,
+        "stop" : 1746051156188,
         "duration" : 0
       },
       "status" : "passed",
@@ -1217,8 +1217,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/C%C3%B3digo_abierto es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753162,
-        "stop" : 1746050753162,
+        "start" : 1746051156191,
+        "stop" : 1746051156191,
         "duration" : 0
       },
       "status" : "passed",
@@ -1232,8 +1232,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Python_Software_Foundation_License es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753166,
-        "stop" : 1746050753166,
+        "start" : 1746051156193,
+        "stop" : 1746051156193,
         "duration" : 0
       },
       "status" : "passed",
@@ -1247,8 +1247,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Historia_de_Python es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753246,
-        "stop" : 1746050753246,
+        "start" : 1746051156196,
+        "stop" : 1746051156196,
         "duration" : 0
       },
       "status" : "passed",
@@ -1262,8 +1262,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:Guido_van_Rossum_OSCON_2006.jpg es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753463,
-        "stop" : 1746050753463,
+        "start" : 1746051156198,
+        "stop" : 1746051156198,
         "duration" : 0
       },
       "status" : "passed",
@@ -1277,8 +1277,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Guido_van_Rossum es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753473,
-        "stop" : 1746050753473,
+        "start" : 1746051156201,
+        "stop" : 1746051156201,
         "duration" : 0
       },
       "status" : "passed",
@@ -1292,8 +1292,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Guido_van_Rossum es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753477,
-        "stop" : 1746050753477,
+        "start" : 1746051156203,
+        "stop" : 1746051156203,
         "duration" : 0
       },
       "status" : "passed",
@@ -1307,8 +1307,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753480,
-        "stop" : 1746050753480,
+        "start" : 1746051156206,
+        "stop" : 1746051156206,
         "duration" : 0
       },
       "status" : "passed",
@@ -1322,8 +1322,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_ABC es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753673,
-        "stop" : 1746050753673,
+        "start" : 1746051156208,
+        "stop" : 1746051156208,
         "duration" : 0
       },
       "status" : "passed",
@@ -1337,8 +1337,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Manejo_de_excepciones es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050753878,
-        "stop" : 1746050753878,
+        "start" : 1746051156211,
+        "stop" : 1746051156211,
         "duration" : 0
       },
       "status" : "passed",
@@ -1352,8 +1352,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Amoeba_(Inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754030,
-        "stop" : 1746050754030,
+        "start" : 1746051156213,
+        "stop" : 1746051156213,
         "duration" : 0
       },
       "status" : "passed",
@@ -1367,8 +1367,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Humorista es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754242,
-        "stop" : 1746050754242,
+        "start" : 1746051156216,
+        "stop" : 1746051156216,
         "duration" : 0
       },
       "status" : "passed",
@@ -1382,8 +1382,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Monty_Python es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754253,
-        "stop" : 1746050754253,
+        "start" : 1746051156218,
+        "stop" : 1746051156218,
         "duration" : 0
       },
       "status" : "passed",
@@ -1397,9 +1397,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Guido_van_Rossum es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754256,
-        "stop" : 1746050754257,
-        "duration" : 1
+        "start" : 1746051156221,
+        "stop" : 1746051156221,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1412,8 +1412,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Benevolent_Dictator_for_Life es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754416,
-        "stop" : 1746050754416,
+        "start" : 1746051156223,
+        "stop" : 1746051156223,
         "duration" : 0
       },
       "status" : "passed",
@@ -1427,9 +1427,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Herencia_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754426,
-        "stop" : 1746050754426,
-        "duration" : 0
+        "start" : 1746051156225,
+        "stop" : 1746051156226,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1442,9 +1442,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Subrutina es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754619,
-        "stop" : 1746050754620,
-        "duration" : 1
+        "start" : 1746051156229,
+        "stop" : 1746051156229,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1457,8 +1457,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Modula-3 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754630,
-        "stop" : 1746050754630,
+        "start" : 1746051156237,
+        "stop" : 1746051156237,
         "duration" : 0
       },
       "status" : "passed",
@@ -1472,8 +1472,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754634,
-        "stop" : 1746050754634,
+        "start" : 1746051156239,
+        "stop" : 1746051156239,
         "duration" : 0
       },
       "status" : "passed",
@@ -1487,9 +1487,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/C%C3%A1lculo_lambda es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754839,
-        "stop" : 1746050754839,
-        "duration" : 0
+        "start" : 1746051156241,
+        "stop" : 1746051156242,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1502,8 +1502,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lisp es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754848,
-        "stop" : 1746050754848,
+        "start" : 1746051156244,
+        "stop" : 1746051156244,
         "duration" : 0
       },
       "status" : "passed",
@@ -1517,8 +1517,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Virginia es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754852,
-        "stop" : 1746050754852,
+        "start" : 1746051156246,
+        "stop" : 1746051156246,
         "duration" : 0
       },
       "status" : "passed",
@@ -1532,8 +1532,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Software es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050754855,
-        "stop" : 1746050754855,
+        "start" : 1746051156249,
+        "stop" : 1746051156249,
         "duration" : 0
       },
       "status" : "passed",
@@ -1547,8 +1547,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/DARPA es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755045,
-        "stop" : 1746050755045,
+        "start" : 1746051156252,
+        "stop" : 1746051156252,
         "duration" : 0
       },
       "status" : "passed",
@@ -1562,8 +1562,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755055,
-        "stop" : 1746050755055,
+        "start" : 1746051156254,
+        "stop" : 1746051156254,
         "duration" : 0
       },
       "status" : "passed",
@@ -1577,8 +1577,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Haskell es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755059,
-        "stop" : 1746050755059,
+        "start" : 1746051156257,
+        "stop" : 1746051156257,
         "duration" : 0
       },
       "status" : "passed",
@@ -1592,8 +1592,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Recolecci%C3%B3n_de_basura es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755224,
-        "stop" : 1746050755224,
+        "start" : 1746051156259,
+        "stop" : 1746051156259,
         "duration" : 0
       },
       "status" : "passed",
@@ -1607,8 +1607,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/GNU_General_Public_License es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755417,
-        "stop" : 1746050755417,
+        "start" : 1746051156262,
+        "stop" : 1746051156262,
         "duration" : 0
       },
       "status" : "passed",
@@ -1622,8 +1622,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Python_License es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755604,
-        "stop" : 1746050755604,
+        "start" : 1746051156264,
+        "stop" : 1746051156264,
         "duration" : 0
       },
       "status" : "passed",
@@ -1637,8 +1637,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Virginia es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755614,
-        "stop" : 1746050755614,
+        "start" : 1746051156267,
+        "stop" : 1746051156267,
         "duration" : 0
       },
       "status" : "passed",
@@ -1652,8 +1652,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Free_Software_Foundation es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755686,
-        "stop" : 1746050755686,
+        "start" : 1746051156269,
+        "stop" : 1746051156269,
         "duration" : 0
       },
       "status" : "passed",
@@ -1667,8 +1667,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Python_Software_Foundation_License es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755690,
-        "stop" : 1746050755690,
+        "start" : 1746051156272,
+        "stop" : 1746051156272,
         "duration" : 0
       },
       "status" : "passed",
@@ -1682,8 +1682,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/FSF_Award_for_the_Advancement_of_Free_Software es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050755859,
-        "stop" : 1746050755859,
+        "start" : 1746051156274,
+        "stop" : 1746051156274,
         "duration" : 0
       },
       "status" : "passed",
@@ -1697,8 +1697,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:Python_add5_syntax.svg es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756049,
-        "stop" : 1746050756049,
+        "start" : 1746051156276,
+        "stop" : 1746051156276,
         "duration" : 0
       },
       "status" : "passed",
@@ -1712,9 +1712,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Coloreado_de_sintaxis es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756058,
-        "stop" : 1746050756059,
-        "duration" : 1
+        "start" : 1746051156279,
+        "stop" : 1746051156279,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1727,8 +1727,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Python_Software_Foundation es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756062,
-        "stop" : 1746050756062,
+        "start" : 1746051156281,
+        "stop" : 1746051156281,
         "duration" : 0
       },
       "status" : "passed",
@@ -1742,8 +1742,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Apache_Software_Foundation es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756218,
-        "stop" : 1746050756218,
+        "start" : 1746051156284,
+        "stop" : 1746051156284,
         "duration" : 0
       },
       "status" : "passed",
@@ -1757,8 +1757,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Scheme es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756409,
-        "stop" : 1746050756409,
+        "start" : 1746051156286,
+        "stop" : 1746051156286,
         "duration" : 0
       },
       "status" : "passed",
@@ -1772,8 +1772,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Generador_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756599,
-        "stop" : 1746050756599,
+        "start" : 1746051156288,
+        "stop" : 1746051156288,
         "duration" : 0
       },
       "status" : "passed",
@@ -1787,9 +1787,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Icon es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756609,
-        "stop" : 1746050756609,
-        "duration" : 0
+        "start" : 1746051156290,
+        "stop" : 1746051156291,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1802,9 +1802,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_Java es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756612,
-        "stop" : 1746050756613,
-        "duration" : 1
+        "start" : 1746051156293,
+        "stop" : 1746051156293,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1817,8 +1817,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Log4j es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756785,
-        "stop" : 1746050756785,
+        "start" : 1746051156295,
+        "stop" : 1746051156295,
         "duration" : 0
       },
       "status" : "passed",
@@ -1832,9 +1832,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Simple_API_for_XML es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050756939,
-        "stop" : 1746050756939,
-        "duration" : 0
+        "start" : 1746051156297,
+        "stop" : 1746051156298,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1847,8 +1847,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Perif%C3%A9rico_de_entrada/salida es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757107,
-        "stop" : 1746050757107,
+        "start" : 1746051156300,
+        "stop" : 1746051156300,
         "duration" : 0
       },
       "status" : "passed",
@@ -1862,9 +1862,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Asincron%C3%ADa es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757279,
-        "stop" : 1746050757280,
-        "duration" : 1
+        "start" : 1746051156302,
+        "stop" : 1746051156302,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1877,8 +1877,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757449,
-        "stop" : 1746050757449,
+        "start" : 1746051156305,
+        "stop" : 1746051156305,
         "duration" : 0
       },
       "status" : "passed",
@@ -1892,8 +1892,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Servidor_web es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757458,
-        "stop" : 1746050757458,
+        "start" : 1746051156307,
+        "stop" : 1746051156307,
         "duration" : 0
       },
       "status" : "passed",
@@ -1907,8 +1907,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Base_de_datos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757462,
-        "stop" : 1746050757462,
+        "start" : 1746051156309,
+        "stop" : 1746051156309,
         "duration" : 0
       },
       "status" : "passed",
@@ -1922,8 +1922,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Inteligencia_artificial es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757465,
-        "stop" : 1746050757465,
+        "start" : 1746051156312,
+        "stop" : 1746051156312,
         "duration" : 0
       },
       "status" : "passed",
@@ -1937,8 +1937,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Machine_learning es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757664,
-        "stop" : 1746050757664,
+        "start" : 1746051156314,
+        "stop" : 1746051156314,
         "duration" : 0
       },
       "status" : "passed",
@@ -1952,8 +1952,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n#Paradigma_de_programación es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757673,
-        "stop" : 1746050757673,
+        "start" : 1746051156316,
+        "stop" : 1746051156316,
         "duration" : 0
       },
       "status" : "passed",
@@ -1967,8 +1967,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757678,
-        "stop" : 1746050757678,
+        "start" : 1746051156319,
+        "stop" : 1746051156319,
         "duration" : 0
       },
       "status" : "passed",
@@ -1982,8 +1982,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n#Clasificación_por_paradigmas es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757682,
-        "stop" : 1746050757682,
+        "start" : 1746051156321,
+        "stop" : 1746051156321,
         "duration" : 0
       },
       "status" : "passed",
@@ -1997,8 +1997,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757685,
-        "stop" : 1746050757685,
+        "start" : 1746051156323,
+        "stop" : 1746051156323,
         "duration" : 0
       },
       "status" : "passed",
@@ -2012,8 +2012,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Extensiones es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757838,
-        "stop" : 1746050757838,
+        "start" : 1746051156325,
+        "stop" : 1746051156325,
         "duration" : 0
       },
       "status" : "passed",
@@ -2027,8 +2027,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tipado_din%C3%A1mico es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757847,
-        "stop" : 1746050757847,
+        "start" : 1746051156328,
+        "stop" : 1746051156328,
         "duration" : 0
       },
       "status" : "passed",
@@ -2042,8 +2042,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Conteo_de_referencias es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050757851,
-        "stop" : 1746050757851,
+        "start" : 1746051156330,
+        "stop" : 1746051156330,
         "duration" : 0
       },
       "status" : "passed",
@@ -2057,8 +2057,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_memoria es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758036,
-        "stop" : 1746050758036,
+        "start" : 1746051156332,
+        "stop" : 1746051156332,
         "duration" : 0
       },
       "status" : "passed",
@@ -2072,8 +2072,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Variable_(programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758224,
-        "stop" : 1746050758224,
+        "start" : 1746051156334,
+        "stop" : 1746051156334,
         "duration" : 0
       },
       "status" : "passed",
@@ -2087,8 +2087,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758234,
-        "stop" : 1746050758234,
+        "start" : 1746051156337,
+        "stop" : 1746051156337,
         "duration" : 0
       },
       "status" : "passed",
@@ -2102,8 +2102,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/C%2B%2B es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758307,
-        "stop" : 1746050758307,
+        "start" : 1746051156339,
+        "stop" : 1746051156339,
         "duration" : 0
       },
       "status" : "passed",
@@ -2117,8 +2117,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lisp es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758311,
-        "stop" : 1746050758311,
+        "start" : 1746051156345,
+        "stop" : 1746051156345,
         "duration" : 0
       },
       "status" : "passed",
@@ -2132,9 +2132,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Scheme es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758315,
-        "stop" : 1746050758315,
-        "duration" : 0
+        "start" : 1746051156347,
+        "stop" : 1746051156348,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2147,8 +2147,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Filosof%C3%ADa_de_Unix es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758475,
-        "stop" : 1746050758475,
+        "start" : 1746051156350,
+        "stop" : 1746051156350,
         "duration" : 0
       },
       "status" : "passed",
@@ -2162,9 +2162,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tim_Peters es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758484,
-        "stop" : 1746050758485,
-        "duration" : 1
+        "start" : 1746051156352,
+        "stop" : 1746051156352,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2177,8 +2177,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Zen_de_Python es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758632,
-        "stop" : 1746050758632,
+        "start" : 1746051156355,
+        "stop" : 1746051156355,
         "duration" : 0
       },
       "status" : "passed",
@@ -2192,8 +2192,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758642,
-        "stop" : 1746050758642,
+        "start" : 1746051156357,
+        "stop" : 1746051156357,
         "duration" : 0
       },
       "status" : "passed",
@@ -2207,8 +2207,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tim_Peters es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758646,
-        "stop" : 1746050758646,
+        "start" : 1746051156360,
+        "stop" : 1746051156360,
         "duration" : 0
       },
       "status" : "passed",
@@ -2222,8 +2222,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Zen_de_Python es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758650,
-        "stop" : 1746050758650,
+        "start" : 1746051156362,
+        "stop" : 1746051156362,
         "duration" : 0
       },
       "status" : "passed",
@@ -2237,8 +2237,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Huevo_de_Pascua_(virtual) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050758852,
-        "stop" : 1746050758852,
+        "start" : 1746051156364,
+        "stop" : 1746051156364,
         "duration" : 0
       },
       "status" : "passed",
@@ -2252,8 +2252,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:LAMP_software_bundle.svg es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759078,
-        "stop" : 1746050759078,
+        "start" : 1746051156367,
+        "stop" : 1746051156367,
         "duration" : 0
       },
       "status" : "passed",
@@ -2267,8 +2267,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/LAMP es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759254,
-        "stop" : 1746050759254,
+        "start" : 1746051156369,
+        "stop" : 1746051156369,
         "duration" : 0
       },
       "status" : "passed",
@@ -2282,8 +2282,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Squid_(programa) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759265,
-        "stop" : 1746050759265,
+        "start" : 1746051156371,
+        "stop" : 1746051156371,
         "duration" : 0
       },
       "status" : "passed",
@@ -2297,8 +2297,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Int%C3%A9rprete_de_comandos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759432,
-        "stop" : 1746050759432,
+        "start" : 1746051156374,
+        "stop" : 1746051156374,
         "duration" : 0
       },
       "status" : "passed",
@@ -2312,8 +2312,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/IDLE es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759632,
-        "stop" : 1746050759632,
+        "start" : 1746051156376,
+        "stop" : 1746051156376,
         "duration" : 0
       },
       "status" : "passed",
@@ -2327,8 +2327,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/IPython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759810,
-        "stop" : 1746050759810,
+        "start" : 1746051156378,
+        "stop" : 1746051156378,
         "duration" : 0
       },
       "status" : "passed",
@@ -2342,8 +2342,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Coloreado_de_sintaxis es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759820,
-        "stop" : 1746050759820,
+        "start" : 1746051156381,
+        "stop" : 1746051156381,
         "duration" : 0
       },
       "status" : "passed",
@@ -2357,8 +2357,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Estilo_de_sangrado es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759969,
-        "stop" : 1746050759969,
+        "start" : 1746051156384,
+        "stop" : 1746051156384,
         "duration" : 0
       },
       "status" : "passed",
@@ -2372,8 +2372,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Factorial es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050759979,
-        "stop" : 1746050759979,
+        "start" : 1746051156386,
+        "stop" : 1746051156386,
         "duration" : 0
       },
       "status" : "passed",
@@ -2387,8 +2387,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_C es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760207,
-        "stop" : 1746050760207,
+        "start" : 1746051156389,
+        "stop" : 1746051156389,
         "duration" : 0
       },
       "status" : "passed",
@@ -2402,8 +2402,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Factorial es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760217,
-        "stop" : 1746050760217,
+        "start" : 1746051156391,
+        "stop" : 1746051156391,
         "duration" : 0
       },
       "status" : "passed",
@@ -2417,9 +2417,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Comentario_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760527,
-        "stop" : 1746050760527,
-        "duration" : 0
+        "start" : 1746051156393,
+        "stop" : 1746051156394,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2432,8 +2432,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Variable_(programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760536,
-        "stop" : 1746050760536,
+        "start" : 1746051156396,
+        "stop" : 1746051156396,
         "duration" : 0
       },
       "status" : "passed",
@@ -2447,8 +2447,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tipado_din%C3%A1mico es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760540,
-        "stop" : 1746050760540,
+        "start" : 1746051156398,
+        "stop" : 1746051156398,
         "duration" : 0
       },
       "status" : "passed",
@@ -2462,9 +2462,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:Python_3._La_jerarqu%C3%ADa_de_tipos_est%C3%A1ndar_02.svg es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760719,
-        "stop" : 1746050760719,
-        "duration" : 0
+        "start" : 1746051156400,
+        "stop" : 1746051156401,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2477,8 +2477,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/UTF-8 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760730,
-        "stop" : 1746050760730,
+        "start" : 1746051156403,
+        "stop" : 1746051156403,
         "duration" : 0
       },
       "status" : "passed",
@@ -2492,8 +2492,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760734,
-        "stop" : 1746050760734,
+        "start" : 1746051156405,
+        "stop" : 1746051156405,
         "duration" : 0
       },
       "status" : "passed",
@@ -2507,8 +2507,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Sentencia_condicional es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050760739,
-        "stop" : 1746050760739,
+        "start" : 1746051156408,
+        "stop" : 1746051156408,
         "duration" : 0
       },
       "status" : "passed",
@@ -2522,8 +2522,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Bloque_de_c%C3%B3digo es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761028,
-        "stop" : 1746050761028,
+        "start" : 1746051156410,
+        "stop" : 1746051156410,
         "duration" : 0
       },
       "status" : "passed",
@@ -2537,9 +2537,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Foreach es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761204,
-        "stop" : 1746050761204,
-        "duration" : 0
+        "start" : 1746051156412,
+        "stop" : 1746051156413,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2552,8 +2552,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Bucle_while es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761215,
-        "stop" : 1746050761215,
+        "start" : 1746051156415,
+        "stop" : 1746051156415,
         "duration" : 0
       },
       "status" : "passed",
@@ -2567,8 +2567,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Intersecci%C3%B3n_de_conjuntos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761378,
-        "stop" : 1746050761378,
+        "start" : 1746051156417,
+        "stop" : 1746051156417,
         "duration" : 0
       },
       "status" : "passed",
@@ -2582,8 +2582,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Uni%C3%B3n_de_conjuntos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761573,
-        "stop" : 1746050761573,
+        "start" : 1746051156420,
+        "stop" : 1746051156420,
         "duration" : 0
       },
       "status" : "passed",
@@ -2597,8 +2597,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Diferencia_de_conjuntos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761582,
-        "stop" : 1746050761582,
+        "start" : 1746051156422,
+        "stop" : 1746051156422,
         "duration" : 0
       },
       "status" : "passed",
@@ -2612,8 +2612,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Diferencia_sim%C3%A9trica es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761804,
-        "stop" : 1746050761804,
+        "start" : 1746051156424,
+        "stop" : 1746051156424,
         "duration" : 0
       },
       "status" : "passed",
@@ -2627,8 +2627,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lisp es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761813,
-        "stop" : 1746050761813,
+        "start" : 1746051156427,
+        "stop" : 1746051156427,
         "duration" : 0
       },
       "status" : "passed",
@@ -2642,8 +2642,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Clase_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761817,
-        "stop" : 1746050761817,
+        "start" : 1746051156429,
+        "stop" : 1746051156429,
         "duration" : 0
       },
       "status" : "passed",
@@ -2657,9 +2657,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Herencia_m%C3%BAltiple es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050761990,
-        "stop" : 1746050761991,
-        "duration" : 1
+        "start" : 1746051156431,
+        "stop" : 1746051156431,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2672,8 +2672,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Encapsulamiento_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050762151,
-        "stop" : 1746050762151,
+        "start" : 1746051156434,
+        "stop" : 1746051156434,
         "duration" : 0
       },
       "status" : "passed",
@@ -2687,8 +2687,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/M%C3%B3dulo_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050762314,
-        "stop" : 1746050762314,
+        "start" : 1746051156436,
+        "stop" : 1746051156436,
         "duration" : 0
       },
       "status" : "passed",
@@ -2702,9 +2702,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tkinter es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050762487,
-        "stop" : 1746050762487,
-        "duration" : 0
+        "start" : 1746051156438,
+        "stop" : 1746051156439,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2717,8 +2717,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tk es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050762652,
-        "stop" : 1746050762652,
+        "start" : 1746051156441,
+        "stop" : 1746051156441,
         "duration" : 0
       },
       "status" : "passed",
@@ -2732,8 +2732,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Software es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050762662,
-        "stop" : 1746050762662,
+        "start" : 1746051156444,
+        "stop" : 1746051156444,
         "duration" : 0
       },
       "status" : "passed",
@@ -2747,8 +2747,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pip_(administrador_de_paquetes) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050762858,
-        "stop" : 1746050762858,
+        "start" : 1746051156446,
+        "stop" : 1746051156446,
         "duration" : 0
       },
       "status" : "passed",
@@ -2762,8 +2762,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Gr%C3%A1ficas_tortuga es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763023,
-        "stop" : 1746050763023,
+        "start" : 1746051156448,
+        "stop" : 1746051156448,
         "duration" : 0
       },
       "status" : "passed",
@@ -2777,8 +2777,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:Poligonos_Python.jpg es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763205,
-        "stop" : 1746050763205,
+        "start" : 1746051156451,
+        "stop" : 1746051156451,
         "duration" : 0
       },
       "status" : "passed",
@@ -2792,8 +2792,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Objeto_(programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763214,
-        "stop" : 1746050763214,
+        "start" : 1746051156453,
+        "stop" : 1746051156453,
         "duration" : 0
       },
       "status" : "passed",
@@ -2807,9 +2807,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Clase_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763218,
-        "stop" : 1746050763218,
-        "duration" : 0
+        "start" : 1746051156455,
+        "stop" : 1746051156456,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2822,8 +2822,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Metaclase es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763372,
-        "stop" : 1746050763372,
+        "start" : 1746051156458,
+        "stop" : 1746051156458,
         "duration" : 0
       },
       "status" : "passed",
@@ -2837,9 +2837,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Herencia_m%C3%BAltiple es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763381,
-        "stop" : 1746050763382,
-        "duration" : 1
+        "start" : 1746051156461,
+        "stop" : 1746051156461,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2852,8 +2852,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Polimorfismo_(inform%C3%A1tica) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763455,
-        "stop" : 1746050763455,
+        "start" : 1746051156463,
+        "stop" : 1746051156463,
         "duration" : 0
       },
       "status" : "passed",
@@ -2867,8 +2867,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Archivo:Python_batteries_included.jpg es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763632,
-        "stop" : 1746050763632,
+        "start" : 1746051156465,
+        "stop" : 1746051156465,
         "duration" : 0
       },
       "status" : "passed",
@@ -2882,8 +2882,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/CPython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763641,
-        "stop" : 1746050763641,
+        "start" : 1746051156468,
+        "stop" : 1746051156468,
         "duration" : 0
       },
       "status" : "passed",
@@ -2897,8 +2897,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/IronPython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763645,
-        "stop" : 1746050763645,
+        "start" : 1746051156471,
+        "stop" : 1746051156471,
         "duration" : 0
       },
       "status" : "passed",
@@ -2912,8 +2912,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_C es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763649,
-        "stop" : 1746050763649,
+        "start" : 1746051156473,
+        "stop" : 1746051156473,
         "duration" : 0
       },
       "status" : "passed",
@@ -2927,8 +2927,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Jython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763652,
-        "stop" : 1746050763652,
+        "start" : 1746051156475,
+        "stop" : 1746051156475,
         "duration" : 0
       },
       "status" : "passed",
@@ -2942,8 +2942,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_Java es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763656,
-        "stop" : 1746050763656,
+        "start" : 1746051156478,
+        "stop" : 1746051156478,
         "duration" : 0
       },
       "status" : "passed",
@@ -2957,8 +2957,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/PyPy es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763661,
-        "stop" : 1746050763661,
+        "start" : 1746051156480,
+        "stop" : 1746051156480,
         "duration" : 0
       },
       "status" : "passed",
@@ -2972,8 +2972,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Compilaci%C3%B3n_en_tiempo_de_ejecuci%C3%B3n es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763665,
-        "stop" : 1746050763665,
+        "start" : 1746051156483,
+        "stop" : 1746051156483,
         "duration" : 0
       },
       "status" : "passed",
@@ -2987,8 +2987,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Windows_10 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763668,
-        "stop" : 1746050763668,
+        "start" : 1746051156485,
+        "stop" : 1746051156485,
         "duration" : 0
       },
       "status" : "passed",
@@ -3002,9 +3002,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/PyPI es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763671,
-        "stop" : 1746050763672,
-        "duration" : 1
+        "start" : 1746051156487,
+        "stop" : 1746051156487,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3017,8 +3017,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Django_(framework) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763748,
-        "stop" : 1746050763748,
+        "start" : 1746051156490,
+        "stop" : 1746051156490,
         "duration" : 0
       },
       "status" : "passed",
@@ -3032,9 +3032,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Cython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763757,
-        "stop" : 1746050763757,
-        "duration" : 0
+        "start" : 1746051156493,
+        "stop" : 1746051156494,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3047,8 +3047,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Flask es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050763948,
-        "stop" : 1746050763948,
+        "start" : 1746051156498,
+        "stop" : 1746051156498,
         "duration" : 0
       },
       "status" : "passed",
@@ -3062,8 +3062,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/CubicWeb es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764099,
-        "stop" : 1746050764099,
+        "start" : 1746051156500,
+        "stop" : 1746051156500,
         "duration" : 0
       },
       "status" : "passed",
@@ -3077,8 +3077,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pygame es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764259,
-        "stop" : 1746050764259,
+        "start" : 1746051156505,
+        "stop" : 1746051156505,
         "duration" : 0
       },
       "status" : "passed",
@@ -3092,8 +3092,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tkinter es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764268,
-        "stop" : 1746050764268,
+        "start" : 1746051156508,
+        "stop" : 1746051156508,
         "duration" : 0
       },
       "status" : "passed",
@@ -3107,8 +3107,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_(programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764480,
-        "stop" : 1746050764480,
+        "start" : 1746051156511,
+        "stop" : 1746051156511,
         "duration" : 0
       },
       "status" : "passed",
@@ -3122,8 +3122,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/GUI es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764563,
-        "stop" : 1746050764563,
+        "start" : 1746051156513,
+        "stop" : 1746051156513,
         "duration" : 0
       },
       "status" : "passed",
@@ -3137,8 +3137,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Tcl/Tk es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764779,
-        "stop" : 1746050764779,
+        "start" : 1746051156516,
+        "stop" : 1746051156516,
         "duration" : 0
       },
       "status" : "passed",
@@ -3152,8 +3152,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/PyGTK es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764973,
-        "stop" : 1746050764973,
+        "start" : 1746051156518,
+        "stop" : 1746051156518,
         "duration" : 0
       },
       "status" : "passed",
@@ -3167,8 +3167,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_(programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764983,
-        "stop" : 1746050764983,
+        "start" : 1746051156521,
+        "stop" : 1746051156521,
         "duration" : 0
       },
       "status" : "passed",
@@ -3182,8 +3182,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/GUI es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050764987,
-        "stop" : 1746050764987,
+        "start" : 1746051156523,
+        "stop" : 1746051156523,
         "duration" : 0
       },
       "status" : "passed",
@@ -3197,8 +3197,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/GTK es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050765260,
-        "stop" : 1746050765260,
+        "start" : 1746051156525,
+        "stop" : 1746051156525,
         "duration" : 0
       },
       "status" : "passed",
@@ -3212,8 +3212,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/WxPython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050765442,
-        "stop" : 1746050765442,
+        "start" : 1746051156527,
+        "stop" : 1746051156527,
         "duration" : 0
       },
       "status" : "passed",
@@ -3227,8 +3227,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_(programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050765452,
-        "stop" : 1746050765452,
+        "start" : 1746051156530,
+        "stop" : 1746051156530,
         "duration" : 0
       },
       "status" : "passed",
@@ -3242,8 +3242,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/GUI es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050765456,
-        "stop" : 1746050765456,
+        "start" : 1746051156532,
+        "stop" : 1746051156532,
         "duration" : 0
       },
       "status" : "passed",
@@ -3257,8 +3257,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/WxWidgets es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050765664,
-        "stop" : 1746050765664,
+        "start" : 1746051156534,
+        "stop" : 1746051156534,
         "duration" : 0
       },
       "status" : "passed",
@@ -3272,8 +3272,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/PyQt es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050765836,
-        "stop" : 1746050765836,
+        "start" : 1746051156537,
+        "stop" : 1746051156537,
         "duration" : 0
       },
       "status" : "passed",
@@ -3287,8 +3287,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/PySide es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050766025,
-        "stop" : 1746050766025,
+        "start" : 1746051156539,
+        "stop" : 1746051156539,
         "duration" : 0
       },
       "status" : "passed",
@@ -3302,9 +3302,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_(programaci%C3%B3n) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050766034,
-        "stop" : 1746050766034,
-        "duration" : 0
+        "start" : 1746051156541,
+        "stop" : 1746051156542,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3317,8 +3317,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/GUI es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050766038,
-        "stop" : 1746050766038,
+        "start" : 1746051156544,
+        "stop" : 1746051156544,
         "duration" : 0
       },
       "status" : "passed",
@@ -3332,9 +3332,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Qt_(biblioteca) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050766230,
-        "stop" : 1746050766230,
-        "duration" : 0
+        "start" : 1746051156546,
+        "stop" : 1746051156547,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3347,8 +3347,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Plone es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050766450,
-        "stop" : 1746050766450,
+        "start" : 1746051156550,
+        "stop" : 1746051156550,
         "duration" : 0
       },
       "status" : "passed",
@@ -3362,8 +3362,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biopython es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050766621,
-        "stop" : 1746050766621,
+        "start" : 1746051156552,
+        "stop" : 1746051156552,
         "duration" : 0
       },
       "status" : "passed",
@@ -3377,9 +3377,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/NumPy es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050766857,
-        "stop" : 1746050766857,
-        "duration" : 0
+        "start" : 1746051156554,
+        "stop" : 1746051156555,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3392,8 +3392,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/SciPy es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767039,
-        "stop" : 1746050767039,
+        "start" : 1746051156557,
+        "stop" : 1746051156557,
         "duration" : 0
       },
       "status" : "passed",
@@ -3407,8 +3407,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pandas_(software) es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767219,
-        "stop" : 1746050767219,
+        "start" : 1746051156559,
+        "stop" : 1746051156559,
         "duration" : 0
       },
       "status" : "passed",
@@ -3422,8 +3422,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pyomo es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767376,
-        "stop" : 1746050767376,
+        "start" : 1746051156562,
+        "stop" : 1746051156562,
         "duration" : 0
       },
       "status" : "passed",
@@ -3437,8 +3437,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Scikit-learn es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767548,
-        "stop" : 1746050767548,
+        "start" : 1746051156565,
+        "stop" : 1746051156565,
         "duration" : 0
       },
       "status" : "passed",
@@ -3452,9 +3452,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767633,
-        "stop" : 1746050767634,
-        "duration" : 1
+        "start" : 1746051156567,
+        "stop" : 1746051156567,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3467,8 +3467,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Guido_van_Rossum es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767637,
-        "stop" : 1746050767637,
+        "start" : 1746051156570,
+        "stop" : 1746051156570,
         "duration" : 0
       },
       "status" : "passed",
@@ -3482,8 +3482,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/ISBN es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767715,
-        "stop" : 1746050767715,
+        "start" : 1746051156572,
+        "stop" : 1746051156572,
         "duration" : 0
       },
       "status" : "passed",
@@ -3497,8 +3497,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/8426732437 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767910,
-        "stop" : 1746050767910,
+        "start" : 1746051156762,
+        "stop" : 1746051156762,
         "duration" : 0
       },
       "status" : "passed",
@@ -3512,8 +3512,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Guido_van_Rossum es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767920,
-        "stop" : 1746050767920,
+        "start" : 1746051156769,
+        "stop" : 1746051156769,
         "duration" : 0
       },
       "status" : "passed",
@@ -3527,8 +3527,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767924,
-        "stop" : 1746050767924,
+        "start" : 1746051156771,
+        "stop" : 1746051156771,
         "duration" : 0
       },
       "status" : "passed",
@@ -3542,9 +3542,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/ISBN es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050767927,
-        "stop" : 1746050767927,
-        "duration" : 0
+        "start" : 1746051156779,
+        "stop" : 1746051156780,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3557,8 +3557,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/978-84-415-2513-9 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050768153,
-        "stop" : 1746050768153,
+        "start" : 1746051156950,
+        "stop" : 1746051156950,
         "duration" : 0
       },
       "status" : "passed",
@@ -3572,8 +3572,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/ISBN es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050768163,
-        "stop" : 1746050768163,
+        "start" : 1746051156958,
+        "stop" : 1746051156958,
         "duration" : 0
       },
       "status" : "passed",
@@ -3587,8 +3587,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/978-84-415-2317-3 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050768351,
-        "stop" : 1746050768351,
+        "start" : 1746051157110,
+        "stop" : 1746051157110,
         "duration" : 0
       },
       "status" : "passed",
@@ -3602,8 +3602,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Control_de_autoridades es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050768449,
-        "stop" : 1746050768449,
+        "start" : 1746051157117,
+        "stop" : 1746051157117,
         "duration" : 0
       },
       "status" : "passed",
@@ -3617,9 +3617,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Wikidata es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050768661,
-        "stop" : 1746050768662,
-        "duration" : 1
+        "start" : 1746051157120,
+        "stop" : 1746051157120,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3632,8 +3632,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Wikimedia_Commons es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050768671,
-        "stop" : 1746050768671,
+        "start" : 1746051157122,
+        "stop" : 1746051157122,
         "duration" : 0
       },
       "status" : "passed",
@@ -3647,8 +3647,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Wikilibros es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050768836,
-        "stop" : 1746050768836,
+        "start" : 1746051157125,
+        "stop" : 1746051157125,
         "duration" : 0
       },
       "status" : "passed",
@@ -3662,8 +3662,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/MediaWiki es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769049,
-        "stop" : 1746050769049,
+        "start" : 1746051157127,
+        "stop" : 1746051157127,
         "duration" : 0
       },
       "status" : "passed",
@@ -3677,8 +3677,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_Nacional_de_Francia es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769058,
-        "stop" : 1746050769058,
+        "start" : 1746051157130,
+        "stop" : 1746051157130,
         "duration" : 0
       },
       "status" : "passed",
@@ -3692,9 +3692,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Gemeinsame_Normdatei es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769062,
-        "stop" : 1746050769062,
-        "duration" : 0
+        "start" : 1746051157132,
+        "stop" : 1746051157133,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3707,8 +3707,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Library_of_Congress_Control_Number es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769136,
-        "stop" : 1746050769136,
+        "start" : 1746051157135,
+        "stop" : 1746051157135,
         "duration" : 0
       },
       "status" : "passed",
@@ -3722,8 +3722,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_Nacional_de_la_Rep%C3%BAblica_Checa es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769321,
-        "stop" : 1746050769321,
+        "start" : 1746051157137,
+        "stop" : 1746051157137,
         "duration" : 0
       },
       "status" : "passed",
@@ -3737,8 +3737,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Biblioteca_Nacional_de_Israel es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769508,
-        "stop" : 1746050769508,
+        "start" : 1746051157140,
+        "stop" : 1746051157140,
         "duration" : 0
       },
       "status" : "passed",
@@ -3752,9 +3752,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Syst%C3%A8me_universitaire_de_documentation es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769667,
-        "stop" : 1746050769667,
-        "duration" : 0
+        "start" : 1746051157142,
+        "stop" : 1746051157143,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3767,8 +3767,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Enciclopedia_Brit%C3%A1nica es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769744,
-        "stop" : 1746050769744,
+        "start" : 1746051157145,
+        "stop" : 1746051157145,
         "duration" : 0
       },
       "status" : "passed",
@@ -3782,9 +3782,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Wikidata es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769754,
-        "stop" : 1746050769754,
-        "duration" : 0
+        "start" : 1746051157147,
+        "stop" : 1746051157148,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3797,8 +3797,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Wikimedia_Commons es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769758,
-        "stop" : 1746050769758,
+        "start" : 1746051157150,
+        "stop" : 1746051157150,
         "duration" : 0
       },
       "status" : "passed",
@@ -3812,9 +3812,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Wikilibros es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769763,
-        "stop" : 1746050769763,
-        "duration" : 0
+        "start" : 1746051157152,
+        "stop" : 1746051157153,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -3827,8 +3827,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/MediaWiki es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769766,
-        "stop" : 1746050769766,
+        "start" : 1746051157155,
+        "stop" : 1746051157155,
         "duration" : 0
       },
       "status" : "passed",
@@ -3842,8 +3842,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Especial:Categor%C3%ADas es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050769908,
-        "stop" : 1746050769908,
+        "start" : 1746051157259,
+        "stop" : 1746051157259,
         "duration" : 0
       },
       "status" : "passed",
@@ -3857,8 +3857,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Python es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050770115,
-        "stop" : 1746050770115,
+        "start" : 1746051157266,
+        "stop" : 1746051157266,
         "duration" : 0
       },
       "status" : "passed",
@@ -3872,8 +3872,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Lenguajes_de_programaci%C3%B3n_orientada_a_objetos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050770331,
-        "stop" : 1746050770331,
+        "start" : 1746051157268,
+        "stop" : 1746051157268,
         "duration" : 0
       },
       "status" : "passed",
@@ -3887,8 +3887,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Lenguajes_de_programaci%C3%B3n_de_alto_nivel es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050770499,
-        "stop" : 1746050770499,
+        "start" : 1746051157271,
+        "stop" : 1746051157271,
         "duration" : 0
       },
       "status" : "passed",
@@ -3902,8 +3902,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Lenguajes_de_programaci%C3%B3n_din%C3%A1micamente_tipados es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050770674,
-        "stop" : 1746050770674,
+        "start" : 1746051157273,
+        "stop" : 1746051157273,
         "duration" : 0
       },
       "status" : "passed",
@@ -3917,8 +3917,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Lenguajes_de_programaci%C3%B3n_educativos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050770862,
-        "stop" : 1746050770862,
+        "start" : 1746051157276,
+        "stop" : 1746051157276,
         "duration" : 0
       },
       "status" : "passed",
@@ -3932,8 +3932,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Software_de_1991 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050771055,
-        "stop" : 1746050771055,
+        "start" : 1746051157278,
+        "stop" : 1746051157278,
         "duration" : 0
       },
       "status" : "passed",
@@ -3947,8 +3947,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Pa%C3%ADses_Bajos_en_1991 es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050771223,
-        "stop" : 1746050771223,
+        "start" : 1746051157280,
+        "stop" : 1746051157280,
         "duration" : 0
       },
       "status" : "passed",
@@ -3962,8 +3962,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Ciencia_y_tecnolog%C3%ADa_de_los_Pa%C3%ADses_Bajos es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050771458,
-        "stop" : 1746050771458,
+        "start" : 1746051157283,
+        "stop" : 1746051157283,
         "duration" : 0
       },
       "status" : "passed",
@@ -3977,8 +3977,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Wikipedia:P%C3%A1ginas_con_errores_de_referencia es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050771931,
-        "stop" : 1746050771931,
+        "start" : 1746051157749,
+        "stop" : 1746051157749,
         "duration" : 0
       },
       "status" : "passed",
@@ -3992,8 +3992,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_buenos_en_la_Wikipedia_en_%C3%A1rabe es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050772173,
-        "stop" : 1746050772173,
+        "start" : 1746051157757,
+        "stop" : 1746051157757,
         "duration" : 0
       },
       "status" : "passed",
@@ -4007,8 +4007,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_buenos_en_la_Wikipedia_en_alem%C3%A1n es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050772426,
-        "stop" : 1746050772426,
+        "start" : 1746051157760,
+        "stop" : 1746051157760,
         "duration" : 0
       },
       "status" : "passed",
@@ -4022,8 +4022,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_BNF es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050772659,
-        "stop" : 1746050772659,
+        "start" : 1746051157800,
+        "stop" : 1746051157800,
         "duration" : 0
       },
       "status" : "passed",
@@ -4037,8 +4037,8 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_GND es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050772952,
-        "stop" : 1746050772952,
+        "start" : 1746051157837,
+        "stop" : 1746051157837,
         "duration" : 0
       },
       "status" : "passed",
@@ -4052,9 +4052,9 @@
     }, {
       "name" : "I say \"El enlace https://es.wikipedia.org/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_LCCN es válido. Status: 200\"",
       "time" : {
-        "start" : 1746050773169,
-        "stop" : 1746050773169,
-        "duration" : 0
+        "start" : 1746051157870,
+        "stop" : 1746051157871,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -4073,11 +4073,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746050773170,
-      "stop" : 1746050773176,
-      "duration" : 6
+      "start" : 1746051157876,
+      "stop" : 1746051157876,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -4088,11 +4088,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746050773176,
-      "stop" : 1746050773176,
-      "duration" : 0
+      "start" : 1746051157871,
+      "stop" : 1746051157876,
+      "duration" : 5
     },
     "status" : "passed",
     "steps" : [ ],
@@ -4111,10 +4111,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1774-982"
+    "value" : "fv-az1391-36"
   }, {
     "name" : "thread",
-    "value" : "pid-2424-worker-main"
+    "value" : "pid-2448-worker-main"
   }, {
     "name" : "package",
     "value" : "features.wikipedia.feature"
@@ -4135,6 +4135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ff45a13dc47d2070.json",
+  "source" : "d6bd8c5aa10bd1c8.json",
   "parameterValues" : [ ]
 }

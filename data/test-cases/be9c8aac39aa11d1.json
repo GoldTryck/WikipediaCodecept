@@ -1,12 +1,12 @@
 {
-  "uid" : "74eb23af5caae047",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Frances\"}",
-  "fullName" : "features/wikipedia.feature: Wikipedia Search > Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Frances\"}",
-  "historyId" : "9050583b7e0378d65eff6ac1d02db51d:d41d8cd98f00b204e9800998ecf8427e",
+  "uid" : "be9c8aac39aa11d1",
+  "name" : "Verificar sección especifica en articulo existente {\"seccion\":\"Referencias\"}",
+  "fullName" : "features/wikipedia.feature: Wikipedia Search > Verificar sección especifica en articulo existente {\"seccion\":\"Referencias\"}",
+  "historyId" : "a6d795dc1c2c2afa62bd60193a1b62d8:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746050724627,
-    "stop" : 1746050727247,
-    "duration" : 2620
+    "start" : 1746051148793,
+    "stop" : 1746051152221,
+    "duration" : 3428
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,24 @@
   "beforeStages" : [ {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746050724627,
-      "stop" : 1746050724654,
+      "start" : 1746051148793,
+      "stop" : 1746051148820,
       "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "time" : {
+      "start" : 1746051114279,
+      "stop" : 1746051114511,
+      "duration" : 232
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,17 +44,17 @@
   }, {
     "name" : "\"before each\" hook: Before",
     "time" : {
-      "start" : 1746050724654,
-      "stop" : 1746050727073,
-      "duration" : 2419
+      "start" : 1746051148820,
+      "stop" : 1746051151253,
+      "duration" : 2433
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Given Estoy en la pagina principal de Wikipedia",
       "time" : {
-        "start" : 1746050724655,
-        "stop" : 1746050724656,
-        "duration" : 1
+        "start" : 1746051148821,
+        "stop" : 1746051148821,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +67,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746050724656,
-        "stop" : 1746050725070,
-        "duration" : 414
+        "start" : 1746051148821,
+        "stop" : 1746051149248,
+        "duration" : 427
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +82,9 @@
     }, {
       "name" : "I wait 2",
       "time" : {
-        "start" : 1746050725070,
-        "stop" : 1746050727069,
-        "duration" : 1999
+        "start" : 1746051149248,
+        "stop" : 1746051151248,
+        "duration" : 2000
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,8 +97,8 @@
     }, {
       "name" : "I say \"Abriendo la pagina principal de Wikipedia\"",
       "time" : {
-        "start" : 1746050727069,
-        "stop" : 1746050727069,
+        "start" : 1746051151248,
+        "stop" : 1746051151248,
         "duration" : 0
       },
       "status" : "passed",
@@ -97,9 +112,9 @@
     }, {
       "name" : "I wait for element \"#js-link-box-es\", 10",
       "time" : {
-        "start" : 1746050727070,
-        "stop" : 1746050727073,
-        "duration" : 3
+        "start" : 1746051151248,
+        "stop" : 1746051151252,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,74 +131,14 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
-  }, {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
-    "time" : {
-      "start" : 1746050702904,
-      "stop" : 1746050703168,
-      "duration" : 264
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "When Selecciono \"Frances\" como idioma",
+      "name" : "When Selecciono \"Español\" como idioma",
       "time" : {
-        "start" : 1746050727074,
-        "stop" : 1746050727075,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Then Se muestra el mensaje de bienvenida correspondiente en \"Frances\"",
-      "time" : {
-        "start" : 1746050727076,
-        "stop" : 1746050727247,
-        "duration" : 171
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "I wait for element \"#js-link-box-fr\", 10",
-      "time" : {
-        "start" : 1746050727076,
-        "stop" : 1746050727079,
-        "duration" : 3
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "I say \"Seleccionando Frances\"",
-      "time" : {
-        "start" : 1746050727079,
-        "stop" : 1746050727079,
+        "start" : 1746051151254,
+        "stop" : 1746051151254,
         "duration" : 0
       },
       "status" : "passed",
@@ -195,11 +150,116 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I click \"#js-link-box-fr\"",
+      "name" : "And Ingreso \"Python\" en el campo de búsqueda",
       "time" : {
-        "start" : 1746050727079,
-        "stop" : 1746050727224,
-        "duration" : 145
+        "start" : 1746051151255,
+        "stop" : 1746051151256,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Verifico que la sección \"Referencias\" está presente",
+      "time" : {
+        "start" : 1746051151257,
+        "stop" : 1746051152221,
+        "duration" : 964
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait for element \"#js-link-box-es\", 10",
+        "time" : {
+          "start" : 1746051151258,
+          "stop" : 1746051151261,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"#js-link-box-es\"",
+        "time" : {
+          "start" : 1746051151261,
+          "stop" : 1746051151395,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I say \"Seleccionando Español\"",
+        "time" : {
+          "start" : 1746051151396,
+          "stop" : 1746051151396,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I wait for element \"#searchInput\", 10",
+      "time" : {
+        "start" : 1746051151396,
+        "stop" : 1746051151527,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I fill field \"#searchInput\", \"Python\"",
+      "time" : {
+        "start" : 1746051151527,
+        "stop" : 1746051151797,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I press key \"Enter\"",
+      "time" : {
+        "start" : 1746051151797,
+        "stop" : 1746051151902,
+        "duration" : 105
       },
       "status" : "passed",
       "steps" : [ ],
@@ -212,9 +272,9 @@
     }, {
       "name" : "I wait for element \"#content\", 10",
       "time" : {
-        "start" : 1746050727225,
-        "stop" : 1746050727242,
-        "duration" : 17
+        "start" : 1746051151902,
+        "stop" : 1746051152075,
+        "duration" : 173
       },
       "status" : "passed",
       "steps" : [ ],
@@ -225,10 +285,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I say \"Validando el mensaje de bienvenida en Frances\"",
+      "name" : "I say \"Validando la sección Referencias\"",
       "time" : {
-        "start" : 1746050727242,
-        "stop" : 1746050727242,
+        "start" : 1746051152075,
+        "stop" : 1746051152075,
         "duration" : 0
       },
       "status" : "passed",
@@ -240,11 +300,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I see \"Bienvenue sur Wikipédia\", \"//h1[@id='firstHeading']\"",
+      "name" : "I grab attribute from all \"//*[contains(@class, 'mw-heading') and contains(@class, 'mw-heading2')]//h2\", \"id\"",
       "time" : {
-        "start" : 1746050727242,
-        "stop" : 1746050727247,
-        "duration" : 5
+        "start" : 1746051152075,
+        "stop" : 1746051152221,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I say \"La sección Referencias está presente\"",
+      "time" : {
+        "start" : 1746051152221,
+        "stop" : 1746051152221,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -257,7 +332,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 8,
+    "stepsCount" : 13,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -265,9 +340,9 @@
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746050727247,
-      "stop" : 1746050727253,
-      "duration" : 6
+      "start" : 1746051152222,
+      "stop" : 1746051152226,
+      "duration" : 4
     },
     "status" : "passed",
     "steps" : [ ],
@@ -280,8 +355,8 @@
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746050773176,
-      "stop" : 1746050773176,
+      "start" : 1746051157876,
+      "stop" : 1746051157876,
       "duration" : 0
     },
     "status" : "passed",
@@ -301,10 +376,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1774-982"
+    "value" : "fv-az1391-36"
   }, {
     "name" : "thread",
-    "value" : "pid-2424-worker-main"
+    "value" : "pid-2448-worker-main"
   }, {
     "name" : "package",
     "value" : "features.wikipedia.feature"
@@ -325,6 +400,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "74eb23af5caae047.json",
+  "source" : "be9c8aac39aa11d1.json",
   "parameterValues" : [ ]
 }

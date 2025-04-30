@@ -1,30 +1,60 @@
 {
-  "uid" : "a37dff4ce80be2fb",
-  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Chino\"}",
-  "fullName" : "features/wikipedia.feature: Wikipedia Search > Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Chino\"}",
-  "historyId" : "5554cecf3480d6add73d270ddce57415:d41d8cd98f00b204e9800998ecf8427e",
+  "uid" : "b992b4ec77fe419e",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Japones\"}",
+  "fullName" : "features/wikipedia.feature: Wikipedia Search > Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Japones\"}",
+  "historyId" : "768231a0e46f8bfa27fbd01b341350a4:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746050727253,
-    "stop" : 1746050730145,
-    "duration" : 2892
+    "start" : 1746051126907,
+    "stop" : 1746051129793,
+    "duration" : 2886
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "\"before each\" hook: codeceptjs.before",
+    "time" : {
+      "start" : 1746051126907,
+      "stop" : 1746051126935,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "time" : {
+      "start" : 1746051114279,
+      "stop" : 1746051114511,
+      "duration" : 232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "\"before each\" hook: Before",
     "time" : {
-      "start" : 1746050727283,
-      "stop" : 1746050729708,
-      "duration" : 2425
+      "start" : 1746051126935,
+      "stop" : 1746051129350,
+      "duration" : 2415
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Given Estoy en la pagina principal de Wikipedia",
       "time" : {
-        "start" : 1746050727284,
-        "stop" : 1746050727284,
-        "duration" : 0
+        "start" : 1746051126936,
+        "stop" : 1746051126937,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,9 +67,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746050727284,
-        "stop" : 1746050727704,
-        "duration" : 420
+        "start" : 1746051126937,
+        "stop" : 1746051127346,
+        "duration" : 409
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,8 +82,8 @@
     }, {
       "name" : "I wait 2",
       "time" : {
-        "start" : 1746050727704,
-        "stop" : 1746050729704,
+        "start" : 1746051127346,
+        "stop" : 1746051129346,
         "duration" : 2000
       },
       "status" : "passed",
@@ -67,8 +97,8 @@
     }, {
       "name" : "I say \"Abriendo la pagina principal de Wikipedia\"",
       "time" : {
-        "start" : 1746050729704,
-        "stop" : 1746050729704,
+        "start" : 1746051129346,
+        "stop" : 1746051129346,
         "duration" : 0
       },
       "status" : "passed",
@@ -82,8 +112,8 @@
     }, {
       "name" : "I wait for element \"#js-link-box-es\", 10",
       "time" : {
-        "start" : 1746050729704,
-        "stop" : 1746050729708,
+        "start" : 1746051129346,
+        "stop" : 1746051129350,
         "duration" : 4
       },
       "status" : "passed",
@@ -101,89 +131,14 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
-  }, {
-    "name" : "\"before each\" hook: codeceptjs.before",
-    "time" : {
-      "start" : 1746050727253,
-      "stop" : 1746050727283,
-      "duration" : 30
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
-    "time" : {
-      "start" : 1746050702904,
-      "stop" : 1746050703168,
-      "duration" : 264
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "When Selecciono \"Chino\" como idioma",
+      "name" : "When Selecciono \"Japones\" como idioma",
       "time" : {
-        "start" : 1746050729709,
-        "stop" : 1746050729710,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Then Se muestra el mensaje de bienvenida correspondiente en \"Chino\"",
-      "time" : {
-        "start" : 1746050729711,
-        "stop" : 1746050730145,
-        "duration" : 434
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "I wait for element \"#js-link-box-zh\", 10",
-      "time" : {
-        "start" : 1746050729711,
-        "stop" : 1746050729717,
-        "duration" : 6
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "I say \"Seleccionando Chino\"",
-      "time" : {
-        "start" : 1746050729717,
-        "stop" : 1746050729717,
+        "start" : 1746051129352,
+        "stop" : 1746051129352,
         "duration" : 0
       },
       "status" : "passed",
@@ -195,11 +150,56 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I click \"#js-link-box-zh\"",
+      "name" : "Then Se muestra el mensaje de bienvenida correspondiente en \"Japones\"",
       "time" : {
-        "start" : 1746050729717,
-        "stop" : 1746050729929,
-        "duration" : 212
+        "start" : 1746051129353,
+        "stop" : 1746051129793,
+        "duration" : 440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I wait for element \"#js-link-box-ja\", 10",
+      "time" : {
+        "start" : 1746051129354,
+        "stop" : 1746051129356,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I say \"Seleccionando Japones\"",
+      "time" : {
+        "start" : 1746051129356,
+        "stop" : 1746051129356,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I click \"#js-link-box-ja\"",
+      "time" : {
+        "start" : 1746051129356,
+        "stop" : 1746051129501,
+        "duration" : 145
       },
       "status" : "passed",
       "steps" : [ ],
@@ -212,9 +212,9 @@
     }, {
       "name" : "I wait for element \"#content\", 10",
       "time" : {
-        "start" : 1746050729929,
-        "stop" : 1746050730080,
-        "duration" : 151
+        "start" : 1746051129501,
+        "stop" : 1746051129728,
+        "duration" : 227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -225,10 +225,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I say \"Validando el mensaje de bienvenida en Chino\"",
+      "name" : "I say \"Validando el mensaje de bienvenida en Japones\"",
       "time" : {
-        "start" : 1746050730080,
-        "stop" : 1746050730080,
+        "start" : 1746051129729,
+        "stop" : 1746051129729,
         "duration" : 0
       },
       "status" : "passed",
@@ -240,10 +240,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I see \"维基百科\", \"//a[@title='Wikipedia:关于']\"",
+      "name" : "I see \"ウィキペディア\", \"//a[@title='Wikipedia:ウィキペディアについて']\"",
       "time" : {
-        "start" : 1746050730081,
-        "stop" : 1746050730145,
+        "start" : 1746051129729,
+        "stop" : 1746051129793,
         "duration" : 64
       },
       "status" : "passed",
@@ -265,8 +265,8 @@
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746050730146,
-      "stop" : 1746050730150,
+      "start" : 1746051129793,
+      "stop" : 1746051129797,
       "duration" : 4
     },
     "status" : "passed",
@@ -280,8 +280,8 @@
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746050773176,
-      "stop" : 1746050773176,
+      "start" : 1746051157876,
+      "stop" : 1746051157876,
       "duration" : 0
     },
     "status" : "passed",
@@ -301,10 +301,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1774-982"
+    "value" : "fv-az1391-36"
   }, {
     "name" : "thread",
-    "value" : "pid-2424-worker-main"
+    "value" : "pid-2448-worker-main"
   }, {
     "name" : "package",
     "value" : "features.wikipedia.feature"
@@ -325,6 +325,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a37dff4ce80be2fb.json",
+  "source" : "b992b4ec77fe419e.json",
   "parameterValues" : [ ]
 }
