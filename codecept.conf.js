@@ -18,9 +18,10 @@ exports.config = {
     features: ["./features/*.feature"],
     steps: ["./steps/wikipedia_steps.js"],
   },
-  plugins: {
+plugins: {
   allure: {
-    enabled: true
+    enabled: true,
+    require: '@codeceptjs/allure-legacy',
   }
 },
 
