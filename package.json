@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/GoldTryck/WikipediaCodecept#readme",
   "devDependencies": {
-    "codeceptjs": "^3.7.3"
+    "codeceptjs": "^3.7.3",
+    "playwright": "^1.52.0"
   }
 }
