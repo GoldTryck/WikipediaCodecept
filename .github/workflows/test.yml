@@ -25,40 +25,53 @@ jobs:
       - name: Instalar navegadores de Playwright
         run: npx playwright install chromium
 
-      - name: Descargar historial anterior de Allure (si existe)
+      - name: Descargar historial de Allure
         uses: actions/download-artifact@v4
         with:
           name: allure-history
           path: output/allure-results/history
         continue-on-error: true
 
+      - name: Inicializar historial si no existe
+        run: |
+          mkdir -p output/allure-results/history
+          echo "{}" > output/allure-results/history/history.json
+
       - name: Ejecutar pruebas
         run: npx codeceptjs run --features
 
-      - name: Generar reporte HTML de Allure
-        run: npm run allure:generate
+      - name: Generar reporte Allure con historial
+        run: |
+          npm run allure:generate
+          mkdir -p output/allure-report/history
+          if [ -d "output/allure-results/history" ]; then
+            cp -r output/allure-results/history/* output/allure-report/history/
+          fi
 
-      - name: Subir resultados raw de Allure
+      - name: Subir resultados raw
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path: output/allure-results/
 
-      - name: Subir historial actualizado de Allure
+      - name: Subir historial actualizado
         uses: actions/upload-artifact@v4
         with:
           name: allure-history
           path: output/allure-report/history
+          retention-days: 30
 
-      - name: Subir reporte HTML de Allure
+      - name: Subir reporte HTML
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: output/allure-report/
 
       - name: Desplegar reporte en GitHub Pages
+        if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: output/allure-report
           publish_branch: gh-pages
+          force_orphan: true
