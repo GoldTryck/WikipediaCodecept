@@ -22,7 +22,7 @@ exports.config = {
     allure: {
       enabled: true,
       require: "allure-codeceptjs",
-      resultsDir: "./output/allure-results",
+      resultsDir: "allure-results",
     },
   },
 
