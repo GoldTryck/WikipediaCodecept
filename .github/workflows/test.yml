@@ -1,0 +1,26 @@
+name: Ejecutar pruebas CodeceptJS
+
+on: 
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  codecept-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hacer checkout del repo
+        uses: actions/checkout@v3
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '23.6.1'  
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar pruebas
+        run: npx codeceptjs run --features

@@ -1,26 +1,23 @@
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
-  tests: './*_test.js',
-  output: './output',
+  tests: "./*_test.js",
+  output: "./output",
   helpers: {
     Playwright: {
-      browser: 'chromium',
-      url: 'https://www.wikipedia.org',
-      show: true
-    }
+      browser: "chromium",
+      url: "https://www.wikipedia.org",
+      show: true,
+    },
   },
   include: {
-    I: './steps_file.js'
+    I: "./steps_file.js",
+    Wiki_main_page: "./pages/Wiki_main_page.js",
   },
 
-  "gherkin": {
-  "features": [
-      "./features/*.feature",
-    ],
-  "steps": [
-    "./steps/*_steps.js"
-  ]
-},
+  gherkin: {
+    features: ["./features/*.feature"],
+    steps: ["./steps/wikipedia_steps.js"],
+  },
 
-  name: 'WikipediaCodecept'
-}
+  name: "WikipediaCodecept",
+};
