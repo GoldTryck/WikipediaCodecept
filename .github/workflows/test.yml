@@ -26,32 +26,32 @@ jobs:
         run: npx playwright install chromium
 
       - name: Ejecutar pruebas
-        run: npx codeceptjs run --features --grep "@test"
+        run: npx codeceptjs run --plugins allure
 
-      
+      - name: Verificar resultados de Allure
+        run: ls -la allure-results
+
       - name: Get Allure history
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         if: always()
-        continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
 
-        
-      - name: Allure Report action from marketplace
-        uses: simple-elf/allure-report-action@master
+      - name: Generar reporte de Allure
+        uses: simple-elf/allure-report-action@v1.6
         if: always()
-        #id: allure-report
         with:
           allure_results: allure-results
-          #gh_pages: gh-pages
-          #allure_report: allure-report
-          allure_history: allure-history
+          allure_history: gh-pages
+          allure_report: allure-history
+
+      - name: Verificar contenido del reporte
+        run: ls -la allure-history
 
       - name: Deploy report to Github Pages
         if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-history
