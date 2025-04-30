@@ -17,7 +17,7 @@ jobs:
       - name: Instalar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '23.6.1'  
+          node-version: '23.6.1'
 
       - name: Instalar dependencias
         run: npm ci
@@ -26,4 +26,19 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Ejecutar pruebas
-        run: npx codeceptjs run --features
+        run: npx codeceptjs run --features --plugins allure
+
+      - name: Generar reporte HTML de Allure
+        run: npm run allure:generate
+
+      - name: Subir resultados raw de Allure
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-results
+          path: output/allure-results/
+
+      - name: Subir reporte HTML de Allure
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: output/allure-report/

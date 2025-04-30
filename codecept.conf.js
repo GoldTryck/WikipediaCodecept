@@ -18,6 +18,11 @@ exports.config = {
     features: ["./features/*.feature"],
     steps: ["./steps/wikipedia_steps.js"],
   },
+  plugins: {
+  allure: {
+    enabled: true
+  }
+},
 
   name: "WikipediaCodecept",
 };
