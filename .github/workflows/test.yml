@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Instalar navegadores de Playwright
-        run: npx playwright install --with-deps
+        run: npx playwright install chromium
 
       - name: Ejecutar pruebas
         run: npx codeceptjs run --features --plugins allure
