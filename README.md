@@ -32,7 +32,7 @@ Comprobar el manejo de búsquedas inválidas.
 2. Selecciónar idioma español.
 3. Buscar el termino "xxyyzzinvalidterm"
 
-**RE**: Se muestra una página con el mensaje "The page 'xxyyzzinvalidterm' no existe."
+**RE**: Se muestra una página con el mensaje "No  'xxyyzzinvalidterm' no existe."
 
 ### 3. Cambio de idioma muestra el mensaje de bienvenida correspondiente
 
