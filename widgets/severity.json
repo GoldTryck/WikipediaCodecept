@@ -1,0 +1,151 @@
+[ {
+  "uid" : "d0e02c93ee983c5c",
+  "name" : "Busqueda exitosa de un termino existente @test",
+  "time" : {
+    "start" : 1746050703169,
+    "stop" : 1746050706983,
+    "duration" : 3814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fd2ec6830b14691",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Portugues\"}",
+  "time" : {
+    "start" : 1746050730151,
+    "stop" : 1746050732945,
+    "duration" : 2794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f4254d0b55f7c9",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Japones\"}",
+  "time" : {
+    "start" : 1746050716223,
+    "stop" : 1746050719076,
+    "duration" : 2853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff45a13dc47d2070",
+  "name" : "Verificar enlaces internos en un artículo existente",
+  "time" : {
+    "start" : 1746050741882,
+    "stop" : 1746050773170,
+    "duration" : 31288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f14d82e90cdbfef1",
+  "name" : "Verificar sección especifica en articulo existente {\"seccion\":\"Referencias\"}",
+  "time" : {
+    "start" : 1746050738401,
+    "stop" : 1746050741878,
+    "duration" : 3477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "161cb44e5816e651",
+  "name" : "Busqueda fallida de un termino inexistente",
+  "time" : {
+    "start" : 1746050706992,
+    "stop" : 1746050710784,
+    "duration" : 3792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4f673bab5ae9baa",
+  "name" : "test something",
+  "time" : {
+    "start" : 1746050773180,
+    "stop" : 1746050773209,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "635306907686581a",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ruso\"}",
+  "time" : {
+    "start" : 1746050719081,
+    "stop" : 1746050721714,
+    "duration" : 2633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7971df1b43bedd7",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Italiano\"}",
+  "time" : {
+    "start" : 1746050732951,
+    "stop" : 1746050735664,
+    "duration" : 2713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a37dff4ce80be2fb",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Chino\"}",
+  "time" : {
+    "start" : 1746050727253,
+    "stop" : 1746050730145,
+    "duration" : 2892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d504c5cba450a742",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ingles\"}",
+  "time" : {
+    "start" : 1746050713544,
+    "stop" : 1746050716218,
+    "duration" : 2674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74eb23af5caae047",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Frances\"}",
+  "time" : {
+    "start" : 1746050724627,
+    "stop" : 1746050727247,
+    "duration" : 2620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90ed87316ac03f00",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Polaco\"}",
+  "time" : {
+    "start" : 1746050735668,
+    "stop" : 1746050738396,
+    "duration" : 2728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41700ed9bb694d94",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Aleman\"}",
+  "time" : {
+    "start" : 1746050721719,
+    "stop" : 1746050724621,
+    "duration" : 2902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8135fc3bf19180eb",
+  "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Español\"}",
+  "time" : {
+    "start" : 1746050710788,
+    "stop" : 1746050713539,
+    "duration" : 2751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

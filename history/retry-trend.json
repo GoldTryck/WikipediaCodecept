@@ -1,0 +1,22 @@
+[ {
+  "buildOrder" : 25,
+  "reportUrl" : "https://GoldTryck.github.io/WikipediaCodecept/25/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 15,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 24,
+  "reportUrl" : "https://GoldTryck.github.io/WikipediaCodecept/24/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+} ]

@@ -1,0 +1,208 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Wikipedia Search",
+    "children" : [ {
+      "name" : "Busqueda exitosa de un termino existente @test",
+      "uid" : "d0e02c93ee983c5c",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050703169,
+        "stop" : 1746050706983,
+        "duration" : 3814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Busqueda fallida de un termino inexistente",
+      "uid" : "161cb44e5816e651",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050706992,
+        "stop" : 1746050710784,
+        "duration" : 3792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Español\"}",
+      "uid" : "8135fc3bf19180eb",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050710788,
+        "stop" : 1746050713539,
+        "duration" : 2751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ingles\"}",
+      "uid" : "d504c5cba450a742",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050713544,
+        "stop" : 1746050716218,
+        "duration" : 2674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Japones\"}",
+      "uid" : "d0f4254d0b55f7c9",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050716223,
+        "stop" : 1746050719076,
+        "duration" : 2853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Ruso\"}",
+      "uid" : "635306907686581a",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050719081,
+        "stop" : 1746050721714,
+        "duration" : 2633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Aleman\"}",
+      "uid" : "41700ed9bb694d94",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050721719,
+        "stop" : 1746050724621,
+        "duration" : 2902
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Frances\"}",
+      "uid" : "74eb23af5caae047",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050724627,
+        "stop" : 1746050727247,
+        "duration" : 2620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Chino\"}",
+      "uid" : "a37dff4ce80be2fb",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050727253,
+        "stop" : 1746050730145,
+        "duration" : 2892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Portugues\"}",
+      "uid" : "6fd2ec6830b14691",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050730151,
+        "stop" : 1746050732945,
+        "duration" : 2794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Italiano\"}",
+      "uid" : "d7971df1b43bedd7",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050732951,
+        "stop" : 1746050735664,
+        "duration" : 2713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cambio de idioma muestra el mensaje de bienvenida correspondiente {\"idioma\":\"Polaco\"}",
+      "uid" : "90ed87316ac03f00",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050735668,
+        "stop" : 1746050738396,
+        "duration" : 2728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificar sección especifica en articulo existente {\"seccion\":\"Referencias\"}",
+      "uid" : "f14d82e90cdbfef1",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050738401,
+        "stop" : 1746050741878,
+        "duration" : 3477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificar enlaces internos en un artículo existente",
+      "uid" : "ff45a13dc47d2070",
+      "parentUid" : "6981d229f2e073a3519041667b86b4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050741882,
+        "stop" : 1746050773170,
+        "duration" : 31288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6981d229f2e073a3519041667b86b4bb"
+  }, {
+    "name" : "Busqueda de articulos",
+    "children" : [ {
+      "name" : "test something",
+      "uid" : "a4f673bab5ae9baa",
+      "parentUid" : "eb1e34d191f01a994ea339587c6b6ff3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746050773180,
+        "stop" : 1746050773209,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eb1e34d191f01a994ea339587c6b6ff3"
+  } ],
+  "name" : "suites"
+}
