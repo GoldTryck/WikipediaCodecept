@@ -1,0 +1,22 @@
+{
+  "name": "wikipediacodecept",
+  "version": "1.0.0",
+  "description": "Framework de automatización de pruebas para Wikipedia utilizando CodeceptJS y Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoldTryck/WikipediaCodecept.git"
+  },
+  "author": "Larios Hector",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoldTryck/WikipediaCodecept/issues"
+  },
+  "homepage": "https://github.com/GoldTryck/WikipediaCodecept#readme",
+  "devDependencies": {
+    "codeceptjs": "^3.7.3"
+  }
+}
