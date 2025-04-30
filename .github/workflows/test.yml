@@ -26,10 +26,7 @@ jobs:
         run: npx playwright install chromium
 
       - name: Ejecutar pruebas
-        run: npx codeceptjs run --plugins allure
-
-      - name: Verificar resultados de Allure
-        run: ls -la allure-results
+        run: npx codeceptjs run --features --plugins allure
 
       - name: Get Allure history
         uses: actions/checkout@v3
@@ -45,9 +42,6 @@ jobs:
           allure_results: allure-results
           allure_history: gh-pages
           allure_report: allure-history
-
-      - name: Verificar contenido del reporte
-        run: ls -la allure-history
 
       - name: Deploy report to Github Pages
         if: always()
