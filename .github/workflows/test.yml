@@ -25,6 +25,13 @@ jobs:
       - name: Instalar navegadores de Playwright
         run: npx playwright install chromium
 
+      - name: Descargar historial anterior de Allure (si existe)
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-history
+          path: output/allure-results/history
+        continue-on-error: true
+
       - name: Ejecutar pruebas
         run: npx codeceptjs run --features
 
@@ -36,6 +43,12 @@ jobs:
         with:
           name: allure-results
           path: output/allure-results/
+
+      - name: Subir historial actualizado de Allure
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-history
+          path: output/allure-report/history
 
       - name: Subir reporte HTML de Allure
         uses: actions/upload-artifact@v4
