@@ -42,3 +42,9 @@ jobs:
         with:
           name: allure-report
           path: output/allure-report/
+
+      - name: Desplegar reporte en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: output/allure-report
