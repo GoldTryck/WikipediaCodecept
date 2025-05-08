@@ -3,7 +3,6 @@ Feature: Wikipedia Search
     Background: Navigate to Wikipedia
         Given Estoy en la pagina principal de Wikipedia
 
-    @test
     Scenario: Busqueda exitosa de un termino existente
         When Selecciono "Español" como idioma
         And Ingreso "Python" en el campo de búsqueda
