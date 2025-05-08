@@ -1,51 +1,57 @@
-name: Ejecutar pruebas CodeceptJS
-
-on: 
+on:
   push:
-    branches: [main]
+    branches: ["**"]
   pull_request:
-    branches: [main]
+    branches: ["**"]
 
 jobs:
   codecept-test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Hacer checkout del repo
+      # Paso 1: Checkout del código principal
+      - name: Checkout main code
         uses: actions/checkout@v3
 
-      - name: Instalar Node.js
+      # Paso 2: Checkout del historial de Allure (gh-pages)
+      - name: Checkout Allure history
+        uses: actions/checkout@v3
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages-history
+
+      # Pasos de instalación...
+      - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '23.6.1'
 
-      - name: Instalar dependencias
+      - name: Install dependencies
         run: npm ci
 
-      - name: Instalar navegadores de Playwright
+      - name: Install Playwright browsers
         run: npx playwright install chromium
 
-      - name: Ejecutar pruebas
+      # Ejecución de pruebas
+      - name: Run tests
         run: npx codeceptjs run --features --plugins allure
 
-      - name: Get Allure history
-        uses: actions/checkout@v3
+      # Generación del reporte Allure
+      - name: Generate Allure report
+        uses: simple-elf/allure-report-action@v1.7
         if: always()
         with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Generar reporte de Allure
-        uses: simple-elf/allure-report-action@v1.6
-        if: always()
-        with:
+          gh_pages: gh-pages-history
           allure_results: allure-results
-          allure_history: gh-pages
-          allure_report: allure-history
+          allure_history: allure-history
 
+      # Despliegue a GitHub Pages
       - name: Deploy report to Github Pages
-        if: always()
         uses: peaceiris/actions-gh-pages@v3
+        if: always()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: allure-history
