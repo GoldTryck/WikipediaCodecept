@@ -13,6 +13,7 @@ Feature: Wikipedia Search
         And Ingreso "xxyyzzinvalidterm" en el campo de búsqueda
         Then No se encontraron resultados relacionados
 
+    @allure.label.severity:critical
     Scenario Outline: Cambio de idioma muestra el mensaje de bienvenida correspondiente
         When Selecciono "<idioma>" como idioma
         Then Se muestra el mensaje de bienvenida correspondiente en "<idioma>"
@@ -38,6 +39,7 @@ Feature: Wikipedia Search
             | seccion         |
             | Referencias     |
 
+    @allure.label.severity:blocker
     Scenario: Verificar enlaces internos en un artículo existente
         When Selecciono "Español" como idioma
         And Ingreso "Python" en el campo de búsqueda
