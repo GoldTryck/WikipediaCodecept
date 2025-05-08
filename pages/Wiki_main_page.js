@@ -192,7 +192,7 @@ class Wiki_main_page {
     I.say("Validando los enlaces internos", "white");
 
     for (const link of links) {
-      const url = baseUrl + link;
+      const url = baseUrl + link + "loremipsum";
       try {
         const res = await axios.head(url);
         if (res.status !== 200) {
